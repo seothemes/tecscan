@@ -1,0 +1,331 @@
+/* ## Site Footer
+--------------------------------------------- */
+
+.site-footer {
+	position: relative;
+	color: $medium;
+	background-color: $dark;
+
+	> .wrap {
+		position: relative;
+		padding: 0 5vw 5vw;
+
+		@include breakpoint(sm) {
+			padding: 0 0 6rem;
+		}
+
+		> p {
+			max-width: calc(100% - 4rem);
+			margin-bottom: 0;
+			font-size: 1.6rem;
+		}
+	}
+
+	a {
+		color: $medium;
+		text-decoration: none;
+
+		&:hover {
+			color: $light;
+		}
+	}
+
+	.back-to-top {
+		position: absolute;
+		right: 5vw;
+		bottom: 2rem;
+		width: 3rem;
+		height: 3rem;
+		border-radius: $site-radius;
+		background-color: rgba($white, 0.1);
+		text-align: center;
+
+		@include breakpoint(sm) {
+			right: 0;
+			bottom: 5.8rem;
+		}
+
+		&:hover {
+			background-color: rgba($white, 0.2);
+		}
+
+		&:before,
+		&:after {
+			display: block;
+			position: absolute;
+			top: 1.3rem;
+			left: 0.9rem;
+			width: 8px;
+			height: 2px;
+			background-color: $medium;
+			content: "";
+			transform: rotate(-45deg);
+		}
+
+		&:after {
+			left: 1.3rem;
+			transform: rotate(45deg);
+		}
+	}
+}
+
+/* ## Footer Widgets
+--------------------------------------------- */
+
+.footer-widgets {
+	z-index: 0;
+	padding: 6rem 0;
+	font-size: 1.7rem;
+
+	@include breakpoint(md) {
+		padding: 10rem 0;
+	}
+
+	.wrap {
+
+		@include breakpoint(sm) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+
+	.widget-area {
+		margin: 0 auto 4rem;
+
+		@include breakpoint(sm) {
+			margin-left: 2.564102564102564%;
+			flex: 1;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
+		}
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+
+		.widget {
+			display: block;
+			width: 100%;
+			margin: 0 auto 2em;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.widget-title {
+		margin-bottom: 1.5em;
+		color: $border;
+		font-size: 1.6rem;
+	}
+
+	.menu-item {
+		width: 50%;
+		margin: 0 0 1em;
+		padding: 0;
+		font-family: $font-body;
+		font-weight: $normal;
+		line-height: 1.618;
+		text-transform: capitalize;
+
+		a {
+			float: left;
+			margin: 0;
+			padding: 0;
+			font-size: 1.6rem;
+			text-align: left;
+		}
+	}
+
+	.menu-item a:hover,
+	.menu-item.current-menu-item > a {
+		color: $light;
+	}
+
+	.sub-menu {
+		display: none !important;
+	}
+
+	.enews {
+
+		::-moz-placeholder {
+			opacity: 1;
+			color: rgba($white, 0.5);
+		}
+
+		::-webkit-input-placeholder {
+			color: rgba($white, 0.5);
+		}
+
+		form {
+			position: relative;
+		}
+
+		input {
+			padding: 0.4rem 1.4rem;
+			border-color: $gray;
+			color: $white;
+			background: transparent;
+			font-size: 1.6rem;
+
+			@include transition;
+
+			&:focus {
+				border-color: $medium;
+			}
+		}
+
+		input[type="submit"] {
+			position: absolute;
+			z-index: 1;
+			right: 0;
+			bottom: 0;
+			width: 5rem;
+			padding: 4px 0;
+			color: transparent;
+			background-color: transparent;
+			box-shadow: none;
+			font-size: 100%;
+			line-height: 2;
+
+			&:hover {
+
+				+ svg {
+					fill: $white;
+				}
+			}
+
+			&:focus {
+				outline: 2px solid $border;
+			}
+		}
+
+		svg {
+			position: absolute;
+			z-index: 0;
+			right: 0;
+			bottom: 0;
+			width: 2rem;
+			height: 2rem;
+			margin-bottom: 0.5em;
+			padding: 0.5em 0.75em;
+			font-size: 2rem;
+			line-height: 1;
+			fill: $medium;
+			box-sizing: content-box;
+
+			@include transition;
+		}
+	}
+
+	p {
+
+		@include breakpoint(sm) {
+			max-width: 90%;
+		}
+	}
+}
+
+/* ## Before Footer
+--------------------------------------------- */
+
+.before-footer {
+	padding: 6rem 0;
+	color: $white;
+	background-color: $dark;
+
+	@include overlay;
+
+	@include breakpoint(sm) {
+		padding: 10rem 0;
+	}
+
+	&:before {
+		top: 1%;
+		right: -50%;
+		left: -50%;
+		width: 100vw;
+		height: 101%;
+		margin: auto;
+	}
+
+	.widget {
+		position: relative;
+		z-index: 1;
+		margin-bottom: 5vw;
+
+		@include breakpoint(sm) {
+			margin-bottom: 0;
+		}
+	}
+
+	.widget_media_image:first-of-type {
+		display: block;
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		right: -50%;
+		bottom: 0;
+		left: -50%;
+		width: 100vw;
+		height: 100%;
+		margin: auto;
+
+		.widget-wrap {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+
+		img {
+			width: 100% !important;
+			height: 100% !important;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+
+	.wrap {
+		z-index: 1;
+
+		@include breakpoint(sm) {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+
+			@include flexfix;
+		}
+	}
+
+	.widget-title {
+		font-size: 3rem;
+	}
+
+	p {
+		margin-bottom: 0;
+		color: $light;
+	}
+
+	button,
+	.button,
+	input[type="submit"] {
+		margin: 0;
+		color: $white;
+
+		&:hover {
+			color: $white;
+		}
+
+		&.alignright {
+			float: left;
+
+			@include breakpoint(sm) {
+				float: right;
+			}
+		}
+	}
+}

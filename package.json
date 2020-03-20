@@ -1,0 +1,39 @@
+{
+  "name": "business-pro-theme",
+  "version": "1.1.1",
+  "description": "The Business Pro theme for the Genesis Framework.",
+  "author": "SEO Themes",
+  "license": "GPL-3.0-or-later",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bourbon": "^5.1.0",
+    "gulp": "^3.9.1",
+    "gulp-src-ordered-globs": "^1.0.3",
+    "gulp-wp-toolkit": "^2.3.2",
+    "gulp-zip": "^4.1.0",
+    "mqkit": "^1.0.3",
+    "prettier": "^1.13.4",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-wordpress": "^13.1.0",
+    "stylelint-order": "^0.8.1"
+  },
+  "theme": {
+    "name": "Business Pro Theme",
+    "uri": "https://seothemes.com/themes/business-pro/",
+    "authoruri": "https://seothemes.com",
+    "licenseuri": "http://www.gnu.org/licenses/gpl-3.0.html",
+    "domainpath": "/languages",
+    "textdomain": "business-pro-theme",
+    "template": "genesis",
+    "tags": "one-column, two-columns, left-sidebar, right-sidebar, accessibility-ready, custom-logo, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spthemes/business-pro-theme"
+  },
+  "scripts": {
+    "zip": "git archive -o business-pro.zip --prefix=business-pro/ HEAD"
+  }
+}

@@ -1,0 +1,257 @@
+/* ## Simple Social Icons
+--------------------------------------------- */
+
+.simple-social-icons {
+	overflow: hidden;
+
+	svg {
+
+		&[class^="social-"],
+		&[class*=" social-"] {
+			display: inline-block;
+			width: 1em;
+			height: 1em;
+			stroke-width: 0;
+			stroke: currentColor;
+			fill: currentColor;
+		}
+	}
+
+	ul {
+		display: flex;
+		margin: -0.2em -0.2em 0 0;
+		padding: 0;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+
+		li {
+			margin: 0.2em 0.2em 0 0;
+			padding: 0;
+			border: none;
+			background: none;
+			list-style-type: none;
+
+			a {
+				display: inline-block;
+				-moz-box-sizing: content-box;
+				-webkit-box-sizing: content-box;
+				box-sizing: content-box;
+				width: 1em;
+				height: 1em;
+				margin: 2px;
+				border: none;
+				font-weight: 400;
+				font-style: normal;
+				font-variant: normal;
+				line-height: 1;
+				text-align: center;
+				text-decoration: none;
+				text-transform: none;
+			}
+		}
+
+		&.aligncenter {
+			justify-content: center;
+		}
+
+		&.alignleft {
+			justify-content: flex-start;
+		}
+
+		&.alignright {
+			justify-content: flex-end;
+		}
+	}
+}
+
+/* ## Genesis Testimonial Slider
+--------------------------------------------- */
+
+div.lSSlideOuter {
+
+	.lSPager.lSpg > li {
+		display: inline-flex;
+		line-height: 0.16;
+
+		a {
+			display: block;
+			opacity: 0.382;
+			background-color: $dark;
+		}
+
+		&.active a,
+		&:hover a {
+			opacity: 0.618;
+			background-color: $dark;
+			transform: scale(1.2);
+		}
+	}
+
+	ul.testimonials-list {
+		color: $gray;
+		font-size: 1.8rem;
+
+		li {
+			text-align: left;
+		}
+	}
+}
+
+/* ## Genesis eNews Extended
+--------------------------------------------- */
+
+.enews {
+
+	input {
+		margin-bottom: 0.5em;
+	}
+}
+
+/* ## Business Profile
+--------------------------------------------- */
+
+.bp-contact-card {
+
+	.hero-section & {
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		> div {
+			width: 100%;
+			margin: 2em 1em 0;
+			text-align: center;
+
+			@include breakpoint(sm) {
+				width: auto;
+			}
+		}
+
+		a {
+			color: $border;
+			text-decoration: none;
+		}
+	}
+
+	.bp-directions,
+	.bp-phone,
+	.bp-contact,
+	.bp-booking,
+	.bp-opening-hours-brief,
+	.bp-opening-hours .bp-title {
+		text-align: left;
+
+		&:before {
+			width: 1em;
+			height: 1em;
+			fill: $gray;
+		}
+	}
+
+	.bp-opening-hours .bp-title {
+		margin-bottom: 1rem;
+	}
+
+	.bp-directions {
+
+		&:before {
+			content: url(assets/images/map-marker.svg);
+		}
+	}
+
+	.bp-phone {
+
+		&:before {
+			content: url(assets/images/phone.svg);
+		}
+	}
+
+	.bp-contact {
+
+		&:before {
+			content: url(assets/images/envelope.svg);
+		}
+	}
+
+	.bp-opening-hours-brief,
+	.bp-opening-hours .bp-title {
+
+		&:before {
+			content: url(assets/images/clock.svg);
+		}
+	}
+}
+
+/* ## Ninja Forms
+--------------------------------------------- */
+
+.nf-error.field-wrap .ninja-forms-field {
+	border: 2px solid $accent;
+}
+
+.nf-error-msg {
+	color: $accent;
+	font-size: 1.5rem;
+}
+
+/* ## Genesis Simple FAQs
+--------------------------------------------- */
+
+.gs-faq__question {
+	margin-bottom: 1rem;
+	color: $gray;
+	background-color: $light;
+
+	&:hover {
+		color: $gray;
+	}
+}
+
+/* ## WooCommerce (site-wide)
+--------------------------------------------- */
+
+.woocommerce-store-notice,
+p.demo_store {
+	position: relative;
+	padding: 1rem 0;
+	font-size: 1.5rem;
+}
+
+.woocommerce-demo-store {
+
+	.hero-section {
+		padding-top: 18rem;
+
+		@include breakpoint(sm) {
+			padding-top: 24rem;
+		}
+	}
+
+	.menu-toggle {
+		top: 64px;
+
+		@include breakpoint(xs) {
+			top: 42px;
+		}
+	}
+}
+
+/* ## SEO Slider
+--------------------------------------------- */
+
+.slick-slide {
+
+	.slick-initialized & {
+		display: flex;
+	}
+
+	.no-js &:first-of-type {
+		display: block;
+		width: 100%;
+	}
+}
+
+.slick-arrow {
+	box-shadow: none;
+}

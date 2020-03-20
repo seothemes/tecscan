@@ -1,0 +1,147 @@
+// -----------------------------------------------------------------------
+// Variables
+// -----------------------------------------------------------------------
+
+// Breakpoints
+
+$breakpoints: (
+	xs: 512px,
+	sm: 768px,
+	md: 896px,
+	lg: 1152px,
+	xl: 1280px
+);
+
+// Colors
+
+$accent: #fb2056;
+$tomato: #ff6347;
+$dodger: #1e90ff;
+$seagreen: #2e8b57;
+$black: #000;
+$dark: #232c39;
+$gray: #647585;
+$medium: #a4a8ac;
+$border: #f0f1f2;
+$light: #f6f7f8;
+$white: #fff;
+$overlay: rgba(35, 44, 57, 0.9);
+
+// Typography
+
+$font-heading: montserrat, helvetica, arial, sans-serif;
+$font-body: hind, helvetica, arial, sans-serif;
+$normal: 400;
+$bolder: 500;
+$bold: 600;
+
+// Other
+
+$site-radius: 4px;
+$site-border: 2px solid $border;
+$site-transition: 0.75s cubic-bezier(0, 1, 0.5, 1);
+
+// Column widths
+
+$margin-left: 2.564102564102564%;
+$one-half: 48.717948717948715%;
+$one-third: 31.623931623931625%;
+$one-fourth: 23.076923076923077%;
+$one-fifth: 17.9487179487179488%;
+$one-sixth: 14.52991452991453%;
+$two-thirds: 65.81196581196582%;
+$two-fifths: 38.4615384615384616%;
+$three-fourths: 74.35897435897436%;
+$three-fifths: 58.9743589743589744%;
+$four-fifths: 79.4871794871794872%;
+$five-sixths: 82.90598290598291%;
+
+// -----------------------------------------------------------------------
+// Mixins
+// -----------------------------------------------------------------------
+
+// Media Queries
+
+@mixin breakpoint( $breakpoint ) {
+
+	@if map-has-key($breakpoints, $breakpoint) {
+
+		@media (min-width: #{ map-get($breakpoints, $breakpoint) }) {
+
+			@content;
+		}
+
+	} @else if type_of( $breakpoint ) == number and unit( $breakpoint ) == px or unit( $breakpoint ) == em or unit( $breakpoint ) == rem {
+
+		@media (min-width: $breakpoint) {
+
+			@content;
+		}
+
+	} @else {
+
+		@warn "No value could be retrieved from `#{$breakpoint}`. "
+			+ "Please make sure it is defined in `$breakpoints` map, or it is a valid number with supported unit of px, em or rem.";
+	}
+}
+
+// Clearfix
+
+@mixin clearfix {
+	clear: both;
+
+	&:before,
+	&:after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+}
+
+// Flexfix
+
+@mixin flexfix {
+
+	&:before,
+	&:after {
+		position: absolute;
+	}
+}
+
+// Transitions
+
+@mixin transition {
+	-webkit-transition: all $site-transition;
+	-moz-transition: all $site-transition;
+	-o-transition: all $site-transition;
+	transition: all $site-transition;
+}
+
+// Overlay
+
+@mixin overlay {
+	position: relative;
+
+	&:before {
+		display: block;
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: $overlay;
+		content: "";
+		pointer-events: none;
+	}
+}
+
+// Overlay
+
+@mixin center {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}

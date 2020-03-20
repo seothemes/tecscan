@@ -1,0 +1,210 @@
+/* ## Blocks
+--------------------------------------------- */
+
+.wp-block {
+
+	// Audio block.
+	&-audio {
+	}
+
+	// Button block.
+	&-button {
+
+		&__link {
+		}
+	}
+
+	// Categories block.
+	&-categories {
+
+		&-list {
+		}
+
+		&-dropdown {
+		}
+	}
+
+	// Code block.
+	&-code {
+	}
+
+	// Columns block.
+	&-columns {
+
+		@media (max-width: map_get($breakpoints, md)) {
+			flex-wrap: wrap;
+		}
+	}
+
+	&-column {
+
+		@media (max-width: map_get($breakpoints, md)) {
+			flex: none;
+			width: 100%;
+		}
+
+		@include breakpoint(md) {
+			margin-left: $margin-left;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
+		}
+	}
+
+	// Cover image block.
+	&-cover-image {
+
+		&.has-parallax {
+		}
+
+		&.has-background-dim {
+		}
+
+		&-text {
+		}
+
+		&.has-left-content {
+		}
+
+		&.has-right-content {
+		}
+
+		&.has-left-content &-text {
+		}
+
+		&.has-right-content &-text {
+		}
+	}
+
+	// Embed block.
+	&-embed {
+		margin: 2em auto;
+	}
+
+	// File block.
+	&-file {
+
+		&__button {
+		}
+	}
+
+	// Gallery block.
+	&-gallery {
+		margin: 2em auto;
+
+		.entry-content & {
+			margin-left: 0;
+			padding-left: 0;
+
+			&.alignfull {
+				margin-left: -50vw;
+			}
+		}
+
+		&.is-cropped {
+		}
+
+		&.columns-1 {
+		}
+
+		&.columns-2 {
+		}
+
+		&.columns-3 {
+		}
+
+		.blocks-gallery-item {
+		}
+
+		&.is-cropped .blocks-gallery-item {
+		}
+
+		.blocks-gallery-item {
+
+			img {
+				align-self: center;
+			}
+		}
+
+		&.columns-1 .blocks-gallery-item {
+		}
+	}
+
+	// Image block.
+	&-image {
+		display: flex;
+		width: 100%;
+		margin: 2em auto;
+
+		img {
+			width: 100%;
+		}
+
+		&.alignleft {
+			margin-right: 1em;
+		}
+
+		&.alignright {
+			margin-left: 1em;
+		}
+
+		&.alignwide {
+			max-width: 120%;
+		}
+
+		&.alignfull {
+			max-width: none;
+		}
+	}
+
+	// Latest posts block.
+	&-latest-posts {
+
+		&.is-grid {
+		}
+
+		&__post-date {
+		}
+	}
+
+	// Preformatted block.
+	&-preformatted {
+	}
+
+	// Pullquote block.
+	&-pullquote {
+		margin: 2em auto;
+		border-left: 0;
+
+		&.aligncenter {
+			margin: 2em auto;
+		}
+	}
+
+	// Quote block.
+	&-quote {
+		border-left: $site-border;
+	}
+
+	// Separator block.
+	&-separator {
+	}
+
+	// Subhead block.
+	&-subhead {
+	}
+
+	// Table block.
+	&-table {
+
+		th,
+		td {
+			border-color: $border;
+		}
+	}
+
+	// Verse block.
+	&-verse {
+	}
+}

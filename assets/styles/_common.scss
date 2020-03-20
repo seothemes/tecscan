@@ -1,0 +1,119 @@
+/* ## Avatars
+--------------------------------------------- */
+
+.avatar {
+	float: left;
+	margin-right: 2rem;
+	border-radius: 50%;
+
+	.alignright & {
+		margin-left: 2rem;
+	}
+}
+
+/* ## Genesis
+--------------------------------------------- */
+
+.breadcrumb {
+	width: 100%;
+	margin-bottom: 3rem;
+	padding: 0;
+	font-size: 1.4rem;
+
+	a {
+		text-decoration: underline;
+	}
+}
+
+.after-entry,
+.author-box {
+	margin-bottom: 5%;
+
+	@include breakpoint(sm) {
+		margin-bottom: 4rem;
+	}
+}
+
+.author-box {
+	margin-top: 5%;
+
+	@include breakpoint(sm) {
+		margin-top: 4rem;
+	}
+
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+/* ## Search Form
+--------------------------------------------- */
+
+.search-form {
+	display: block;
+	position: relative;
+	width: 100%;
+
+	@include clearfix;
+
+	&:after {
+		display: block;
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		width: 1em;
+		height: 1em;
+		content: url("assets/images/search.svg");
+		transform: rotate(-90deg);
+		pointer-events: none;
+	}
+
+	input[type="search"] {
+		width: 100%;
+	}
+
+	input[type="submit"] {
+		display: none;
+	}
+
+	.entry-content & {
+		margin-bottom: 1em;
+	}
+}
+
+/* ## WordPress
+--------------------------------------------- */
+
+.wp-caption-text {
+	margin: 0;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.entry-content {
+
+	p.wp-caption-text {
+		margin-bottom: 0;
+	}
+
+	.wp-audio-shortcode,
+	.wp-playlist,
+	.wp-video {
+		margin: 0 0 1em;
+	}
+}
+
+.sticky,
+.bypostauthor {
+	background-color: transparent;
+}
+
+.post-edit-link {
+	display: block;
+
+	@include clearfix;
+
+	.page-template-page-builder & {
+		display: none;
+	}
+}

@@ -1,0 +1,356 @@
+/* ## Entries
+--------------------------------------------- */
+
+.entry {
+	background-color: $white;
+
+	.single & {
+		background-color: transparent;
+	}
+}
+
+.entry-title {
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.entry-content {
+
+	@include clearfix;
+
+	p {
+		color: $gray;
+
+		.blog &,
+		.archive & {
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+
+	b,
+	strong {
+		font-weight: $bold;
+	}
+
+	li {
+		color: $gray;
+	}
+
+	ol,
+	ul {
+		margin-bottom: 1em;
+		margin-left: 4rem;
+	}
+
+	ol > li {
+		list-style-type: decimal;
+	}
+
+	ul > li {
+		list-style-type: disc;
+	}
+
+	ol ol,
+	ul ul {
+		margin-bottom: 0;
+	}
+
+	li li {
+		list-style-type: circle;
+	}
+
+	code {
+		display: block;
+		margin-top: 1em;
+		padding: 1rem 2rem;
+		border: $site-border;
+		border-radius: $site-radius;
+		background-color: $light;
+	}
+
+	pre {
+
+		code {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+	}
+
+	> *:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.entry-image-link {
+	display: block;
+	margin-bottom: 1em;
+
+	img {
+		display: block;
+	}
+}
+
+.entry-image-link {
+	display: block;
+	margin: 0 0 3rem;
+
+	.single & {
+
+		@include breakpoint(sm) {
+			margin: 0 0 4rem;
+		}
+	}
+}
+
+.entry-footer {
+
+	.single & {
+		padding: 3rem 0 0;
+	}
+}
+
+/* ## Entry Meta
+--------------------------------------------- */
+
+p.entry-meta {
+	font-family: $font-heading;
+	font-size: 1.2rem;
+	font-weight: $bolder;
+
+	.entry-header & {
+		margin-bottom: 1em;
+	}
+}
+
+.entry-categories,
+.entry-tags {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+
+	img {
+		margin-right: 0.5em;
+	}
+}
+
+.entry-categories {
+
+	img {
+		transform: rotate(-90deg);
+	}
+}
+
+/* ## Pagination
+--------------------------------------------- */
+
+.pagination {
+	display: flex;
+	width: 100%;
+	margin: 5vw 0 10vw;
+	justify-content: center;
+
+	@include clearfix;
+
+	@include breakpoint(md) {
+		margin: 4rem 0 0;
+		order: 3;
+
+		.content-sidebar &,
+		.sidebar-content & {
+			width: calc(75% - 4rem);
+		}
+	}
+
+	.wrap {
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		@include breakpoint(sm) {
+			width: 90%;
+		}
+	}
+
+	.alignleft {
+		margin-left: 0;
+
+		@include breakpoint(md) {
+			margin-right: auto;
+			margin-left: 0;
+		}
+	}
+
+	.alignright {
+		margin-right: 0;
+
+		@include breakpoint(md) {
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+}
+
+.adjacent-entry-pagination {
+	margin: 0;
+	padding: 4rem 0;
+	background-color: $light;
+	font-family: $font-heading;
+	font-size: 1.4rem;
+	font-weight: $bolder;
+
+	@include breakpoint(md) {
+		margin: 0;
+	}
+
+	a {
+		color: $gray;
+		text-decoration: none;
+	}
+}
+
+.archive-pagination {
+
+	ul {
+		display: flex;
+	}
+
+	li {
+		margin: 0 0.25em 0 0;
+	}
+
+	a {
+		display: block;
+		padding: 0.75rem 1rem;
+		border-radius: $site-radius;
+		color: $dark;
+		background-color: $white;
+		font-size: 1.6rem;
+		text-decoration: none;
+
+		@include transition;
+	}
+
+	a:hover,
+	.active a {
+		color: $white;
+		background-color: $accent;
+		box-shadow: 0 1rem 1rem -0.5rem rgba($dark, 0.15);
+	}
+}
+
+/* ## Comments
+--------------------------------------------- */
+
+.comment-respond,
+.entry-comments,
+.entry-pings {
+	margin-top: 4rem;
+	background-color: #fff;
+	font-size: 1.6rem;
+}
+
+.comment-respond {
+
+	.form-submit {
+		margin-bottom: 0;
+	}
+}
+
+.comment-list {
+
+	li {
+		padding: 4rem 0 0 5vw;
+	}
+
+	.depth-1 {
+		padding-left: 0;
+	}
+
+	.comment-respond {
+		padding: 0 0 0 1em;
+	}
+
+	> .comment-respond {
+		padding: 0;
+	}
+}
+
+.comment-header {
+	margin-bottom: 5vw;
+
+	@include breakpoint(sm) {
+		margin-bottom: 2em;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.comment-edit-link {
+	padding-left: calc(4.8rem + 1em);
+
+	.entry-pings & {
+		display: block;
+		clear: both;
+		padding: 0;
+	}
+}
+
+.comment-reply-link {
+	display: block;
+	margin-bottom: 1em;
+}
+
+.comment-meta {
+	padding-left: calc(4.8rem + 1em);
+	word-break: break-all;
+
+	.entry-pings & {
+		padding: 0 0 1em;
+	}
+}
+
+.comment-content {
+	clear: both;
+
+	ul > li {
+		list-style-type: disc;
+	}
+
+	p {
+		margin-bottom: 0.618em;
+	}
+}
+
+.comment-respond {
+
+	input[type="email"],
+	input[type="text"],
+	input[type="url"] {
+
+		@include breakpoint(xl) {
+			width: 50%;
+		}
+
+		label {
+			display: block;
+			margin-right: 1rem;
+		}
+	}
+}
+
+.entry-pings .reply {
+	display: none;
+}
+
+.pingback:last-of-type p {
+	margin-bottom: 0;
+}

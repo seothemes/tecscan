@@ -1,0 +1,110 @@
+////
+/// Alignment classes.
+///
+/// @group  Base
+/// @author Lee Anthony <seothemeswp@gmail.com>
+/// @link   https://github.com/seothemes/genesis-starter-theme
+////
+
+%alignfull {
+	position: relative;
+	left: 50%;
+	width: 100vw;
+	max-width: none;
+	margin-right: 0;
+	margin-left: -50vw;
+
+	.is-archive &,
+	.full-width-content & {
+		margin-right: 25vw; // Fix clearing.
+	}
+
+	.content-sidebar &,
+	.sidebar-content & {
+		left: auto;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+%alignwide {
+	position: relative;
+	left: 50%;
+	width: 100vw;
+	max-width: 120%;
+	transform: translate(-50%);
+
+	.content-sidebar &,
+	.sidebar-content & {
+		left: auto;
+		width: 100%;
+		transform: none;
+	}
+}
+
+.align {
+
+	&center,
+	&left,
+	&right {
+		display: block;
+		float: none;
+		margin: 0 auto 1em;
+	}
+
+	&left {
+
+		@include breakpoint(md) {
+			float: left;
+			margin: 0 1em 1em 0;
+		}
+	}
+
+	&right {
+
+		@include breakpoint(md) {
+			float: right;
+			margin: 0 0 1em 1em;
+		}
+	}
+
+	&center {
+
+		@include clearfix;
+	}
+
+	&wide,
+	&full {
+		position: relative;
+		left: 50%;
+		width: 100vw;
+
+		.content-sidebar &,
+		.sidebar-content & {
+			left: auto;
+			width: 100%;
+			margin-left: 0;
+			transform: none;
+		}
+
+		img {
+			display: inline-block;
+			width: 100%;
+			margin: 1em auto 1em * 1.618;
+
+			@include breakpoint(md) {
+				margin: 0.5em * 1.2 auto 2em * 1.2;
+			}
+		}
+	}
+
+	&wide {
+		max-width: 120%;
+		transform: translate(-50%);
+	}
+
+	&full {
+		max-width: none;
+		margin-left: -50vw;
+	}
+}
