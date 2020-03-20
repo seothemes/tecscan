@@ -1,7 +1,7 @@
 {
-  "name": "business-pro-theme",
+  "name": "tecscan",
   "version": "1.1.1",
-  "description": "The Business Pro theme for the Genesis Framework.",
+  "description": "The TecScan for the Genesis Framework.",
   "author": "SEO Themes",
   "license": "GPL-3.0-or-later",
   "main": "Gulpfile.js",
@@ -20,20 +20,20 @@
     "stylelint-order": "^0.8.1"
   },
   "theme": {
-    "name": "Business Pro Theme",
-    "uri": "https://seothemes.com/themes/business-pro/",
+    "name": "TecScan",
+    "uri": "https://seothemes.com/themes/tecscan/",
     "authoruri": "https://seothemes.com",
     "licenseuri": "http://www.gnu.org/licenses/gpl-3.0.html",
     "domainpath": "/languages",
-    "textdomain": "business-pro-theme",
+    "textdomain": "tecscan",
     "template": "genesis",
     "tags": "one-column, two-columns, left-sidebar, right-sidebar, accessibility-ready, custom-logo, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spthemes/business-pro-theme"
+    "url": "git+https://github.com/spthemes/tecscan"
   },
   "scripts": {
-    "zip": "git archive -o business-pro.zip --prefix=business-pro/ HEAD"
+    "zip": "git archive -o tecscan.zip --prefix=tecscan/ HEAD"
   }
 }

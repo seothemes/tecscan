@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds Customizer settings to the Business Pro theme.
+ * This file adds Customizer settings to the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -17,12 +17,12 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Add theme customizer colors here.
-$business_colors = array(
+$tecscan_colors = array(
 	'accent'  => '#fb2056',
 	'overlay' => 'rgba(35,44,57,0.9)',
 );
 
-add_action( 'customize_register', 'business_customize_register' );
+add_action( 'customize_register', 'tecscan_customize_register' );
 /**
  * Sets up the theme customizer sections, controls, and settings.
  *
@@ -32,31 +32,31 @@ add_action( 'customize_register', 'business_customize_register' );
  *
  * @return void
  */
-function business_customize_register( $wp_customize ) {
+function tecscan_customize_register( $wp_customize ) {
 
-	global $business_colors;
+	global $tecscan_colors;
 
 	// Remove 'Display title and tagline' checkbox.
 	$wp_customize->remove_control( 'display_header_text' );
 
 	// Add logo size setting.
 	$wp_customize->add_setting(
-		'business_logo_size',
+		'tecscan_logo_size',
 		array(
 			'capability'        => 'edit_theme_options',
 			'default'           => 100,
-			'sanitize_callback' => 'business_sanitize_number',
+			'sanitize_callback' => 'tecscan_sanitize_number',
 		)
 	);
 
 	// Add logo size control.
 	$wp_customize->add_control( new WP_Customize_Control(
 		$wp_customize,
-		'business_logo_size',
+		'tecscan_logo_size',
 		array(
-			'label'       => __( 'Logo Size', 'business-pro-theme' ),
-			'description' => __( 'Set the logo size in pixels. Default is 100.', 'business-pro-theme' ),
-			'settings'    => 'business_logo_size',
+			'label'       => __( 'Logo Size', 'tecscan' ),
+			'description' => __( 'Set the logo size in pixels. Default is 100.', 'tecscan' ),
+			'settings'    => 'tecscan_logo_size',
 			'section'     => 'title_tagline',
 			'type'        => 'number',
 			'priority'    => 8,
@@ -64,7 +64,7 @@ function business_customize_register( $wp_customize ) {
 	) );
 
 	// Add fixed header settings.
-	$wp_customize->add_setting( 'business_fixed_header',
+	$wp_customize->add_setting( 'tecscan_fixed_header',
 		array(
 			'capability' => 'edit_theme_options',
 			'default'    => false,
@@ -74,10 +74,10 @@ function business_customize_register( $wp_customize ) {
 	// Add fixed header controls.
 	$wp_customize->add_control( new WP_Customize_Control(
 		$wp_customize,
-		'business_fixed_header',
+		'tecscan_fixed_header',
 		array(
-			'label'    => __( 'Enable fixed header', 'business-pro-theme' ),
-			'settings' => 'business_fixed_header',
+			'label'    => __( 'Enable fixed header', 'tecscan' ),
+			'settings' => 'tecscan_fixed_header',
 			'section'  => 'genesis_layout',
 			'type'     => 'checkbox',
 		)
@@ -92,20 +92,20 @@ function business_customize_register( $wp_customize ) {
 	 * Loop through the global variable array of colors and register a customizer
 	 * setting and control for each. To add additional color settings, do not
 	 * modify this function, instead add your color name and hex value to
-	 * the $business_colors` array at the start of this file.
+	 * the $tecscan_colors` array at the start of this file.
 	 */
-	foreach ( $business_colors as $id => $rgba ) {
+	foreach ( $tecscan_colors as $id => $rgba ) {
 
 		// Format ID and label.
-		$setting = "business_{$id}_color";
-		$label   = ucwords( str_replace( '_', ' ', $id ) ) . __( ' Color', 'business-pro-theme' );
+		$setting = "tecscan_{$id}_color";
+		$label   = ucwords( str_replace( '_', ' ', $id ) ) . __( ' Color', 'tecscan' );
 
 		// Add color setting.
 		$wp_customize->add_setting(
 			$setting,
 			array(
 				'default'           => $rgba,
-				'sanitize_callback' => 'business_sanitize_rgba_color',
+				'sanitize_callback' => 'tecscan_sanitize_rgba_color',
 			)
 		);
 
@@ -135,7 +135,7 @@ function business_customize_register( $wp_customize ) {
 	}
 }
 
-add_action( 'wp_enqueue_scripts', 'business_customizer_output', 100 );
+add_action( 'wp_enqueue_scripts', 'tecscan_customizer_output', 100 );
 /**
  * Output customizer styles.
  *
@@ -144,26 +144,26 @@ add_action( 'wp_enqueue_scripts', 'business_customizer_output', 100 );
  *
  * @since  1.0.0
  *
- * @var    array $business_colors Global theme colors.
+ * @var    array $tecscan_colors Global theme colors.
  * @return void
  */
-function business_customizer_output() {
+function tecscan_customizer_output() {
 
-	global $business_colors;
+	global $tecscan_colors;
 
 	// Get current logo size.
-	$logo_size = get_theme_mod( 'business_logo_size', 100 );
+	$logo_size = get_theme_mod( 'tecscan_logo_size', 100 );
 
 	/**
 	 * Loop though each color in the global array of theme colors and create a new
 	 * variable for each. This is just a shorthand way of creating multiple
 	 * variables that we can reuse. The benefit of using a foreach loop
 	 * over creating each variable manually is that we can just
-	 * declare the colors once in the `$business_colors`
+	 * declare the colors once in the `$tecscan_colors`
 	 * array and they can be used in multiple ways.
 	 */
-	foreach ( $business_colors as $id => $hex ) {
-		${"$id"} = get_theme_mod( "business_{$id}_color", $hex );
+	foreach ( $tecscan_colors as $id => $hex ) {
+		${"$id"} = get_theme_mod( "tecscan_{$id}_color", $hex );
 	}
 
 	// Ensure $css var is empty.
@@ -177,7 +177,7 @@ function business_customizer_output() {
 	 * the theme customizer. If the theme mod is not equal to the
 	 * default color then the string is appended to $css.
 	 */
-	$css .= ( $business_colors['accent'] !== $accent ) ? sprintf( '
+	$css .= ( $tecscan_colors['accent'] !== $accent ) ? sprintf( '
 		button.accent,
 		.button.accent,
 		button.accent:hover,
@@ -201,7 +201,7 @@ function business_customizer_output() {
 		}
 		', $accent ) : '';
 
-	$css .= ( $business_colors['overlay'] !== $overlay ) ? sprintf( '
+	$css .= ( $tecscan_colors['overlay'] !== $overlay ) ? sprintf( '
 		.hero-section:before,
 		.front-page-4:before,
 		.before-footer:before {
@@ -217,8 +217,8 @@ function business_customizer_output() {
 		', $logo_size ) : '';
 
 	// WooCommerce only styles.
-	if ( class_exists( 'WooCommerce' ) && business_is_woocommerce_page() ) {
-		$css .= ( $business_colors['accent'] !== $accent ) ? sprintf( '
+	if ( class_exists( 'WooCommerce' ) && tecscan_is_woocommerce_page() ) {
+		$css .= ( $tecscan_colors['accent'] !== $accent ) ? sprintf( '
 			.woocommerce a.button:hover,
 			.woocommerce a.button:focus,
 			.woocommerce a.button,
@@ -263,6 +263,6 @@ function business_customizer_output() {
 	if ( ! empty( $css ) ) {
 
 		// Add the inline styles, also minify CSS first.
-		wp_add_inline_style( $handle, business_minify_css( $css ) );
+		wp_add_inline_style( $handle, tecscan_minify_css( $css ) );
 	}
 }

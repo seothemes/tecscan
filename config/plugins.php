@@ -1,7 +1,7 @@
 <?php
 
 $plugins = [
-	'business-profile/business-profile.php',
+	'tecscanfile/tecscanfile.php',
 	'genesis-portfolio-pro/genesis-portfolio-pro.php',
 	'genesis-simple-faq/genesis-simple-faq.php',
 	'genesis-simple-share/plugin.php',

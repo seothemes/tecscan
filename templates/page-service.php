@@ -1,14 +1,14 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds the service page template to the Business Pro theme, it adds
+ * This file adds the service page template to the TecScan, it adds
  * some basic schema.org micro data to the site inner div and H1 heading.
  *
  * Template Name: Service Page
  *
- * @package      Business Pro
- * @link         https://seothemes.com/themes/business-pro
+ * @package      TecScan
+ * @link         https://seothemes.com/themes/tecscan
  * @author       SEO Themes
  * @copyright    Copyright © 2019 SEO Themes
  * @license      GPL-3.0-or-later
@@ -19,7 +19,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-add_filter( 'genesis_attr_site-inner', 'business_service_site_inner' );
+add_filter( 'genesis_attr_site-inner', 'tecscan_service_site_inner' );
 /**
  * Filter the site-inner div.
  *
@@ -31,14 +31,14 @@ add_filter( 'genesis_attr_site-inner', 'business_service_site_inner' );
  * @param  array $attr Array of site-inner values.
  * @return array
  */
-function business_service_site_inner( $attr ) {
+function tecscan_service_site_inner( $attr ) {
 	$attr['itemscope'] = 'itemscope';
 	$attr['itemtype']  = 'https://schema.org/Service';
 
 	return $attr;
 }
 
-add_filter( 'business_hero_title_markup', 'business_service_title' );
+add_filter( 'tecscan_hero_title_markup', 'tecscan_service_title' );
 /**
  * Filter the page title.
  *
@@ -51,7 +51,7 @@ add_filter( 'business_hero_title_markup', 'business_service_title' );
  * @link   http://schema.org/serviceType
  * @return string
  */
-function business_service_title() {
+function tecscan_service_title() {
 	return '<h1 itemprop="serviceType">';
 }
 

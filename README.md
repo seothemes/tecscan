@@ -1,13 +1,13 @@
-# Business Pro Theme
+# TecScan
 
-A robust and flexible WordPress theme for businesses of any kind. Demo - [https://demo.seothemes.com/business-pro](https://demo.seothemes.com/business-pro)
+A robust and flexible WordPress theme for businesses of any kind. Demo - [https://demo.seothemes.com/tecscan](https://demo.seothemes.com/tecscan)
 
 
 ## Features
 
 - Custom Colors
   
-  Business Pro provides custom color settings with transparency/opacity options giving you even more control over your theme's colors
+  TecScan provides custom color settings with transparency/opacity options giving you even more control over your theme's colors
 
 - Hero Image or Video
   
@@ -31,7 +31,7 @@ A robust and flexible WordPress theme for businesses of any kind. Demo - [https:
 
 - Masonry Grid
   
-  Business Pro includes a masonry portfolio and blog that looks great and works at all screen sizes
+  TecScan includes a masonry portfolio and blog that looks great and works at all screen sizes
 
 - Testimonials
   
@@ -66,7 +66,7 @@ A robust and flexible WordPress theme for businesses of any kind. Demo - [https:
 ## Installation
 
 1. Upload and install Genesis
-2. Upload, install and activate Business Pro
+2. Upload, install and activate TecScan
 3. Install and activate recommended plugins
 4. *Important* Delete unwanted existing posts, pages, comments & widgets
 5. Import sample.xml from Tools > Import
@@ -106,7 +106,7 @@ theme/
 │   ├── helpers.php
 │   └── plugins.php
 ├── languages/
-│   └── business-pro.pot
+│   └── tecscan.pot
 ├── templates/
 │   ├── page-builder.php
 │   ├── page-landing.php
@@ -130,7 +130,7 @@ theme/
 
 ## Development
 
-Business Pro uses [Gulp](http://gulpjs.com/) as a build tool and [npm](https://www.npmjs.com/) to manage front-end packages.
+TecScan uses [Gulp](http://gulpjs.com/) as a build tool and [npm](https://www.npmjs.com/) to manage front-end packages.
 
 ### Install dependencies
 

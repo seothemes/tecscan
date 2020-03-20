@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file registers widget areas for the Business Pro theme.
+ * This file registers widget areas for the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -19,8 +19,8 @@ if ( ! defined( 'WPINC' ) ) {
 // Register Front Page 1 widget area.
 genesis_register_sidebar( array(
 	'id'          => 'front-page-1',
-	'name'        => __( 'Front Page 1', 'business-pro-theme' ),
-	'description' => __( 'This is the Front Page 1 widget area.', 'business-pro-theme' ),
+	'name'        => __( 'Front Page 1', 'tecscan' ),
+	'description' => __( 'This is the Front Page 1 widget area.', 'tecscan' ),
 	'before_title' => '<h1 itemprop="headline">',
 	'after_title'  => '</h1>',
 ) );
@@ -28,46 +28,46 @@ genesis_register_sidebar( array(
 // Register Front Page 2 widget area.
 genesis_register_sidebar( array(
 	'id'          => 'front-page-2',
-	'name'        => __( 'Front Page 2', 'business-pro-theme' ),
-	'description' => __( 'This is the Front Page 2 widget area.', 'business-pro-theme' ),
+	'name'        => __( 'Front Page 2', 'tecscan' ),
+	'description' => __( 'This is the Front Page 2 widget area.', 'tecscan' ),
 ) );
 
 // Register Front Page 3 widget area.
 genesis_register_sidebar( array(
 	'id'          => 'front-page-3',
-	'name'        => __( 'Front Page 3', 'business-pro-theme' ),
-	'description' => __( 'This is the Front Page 3 widget area.', 'business-pro-theme' ),
+	'name'        => __( 'Front Page 3', 'tecscan' ),
+	'description' => __( 'This is the Front Page 3 widget area.', 'tecscan' ),
 ) );
 
 // Register Front Page 4 widget area.
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4',
-	'name'        => __( 'Front Page 4', 'business-pro-theme' ),
-	'description' => __( 'This is the Front Page 4 widget area.', 'business-pro-theme' ),
+	'name'        => __( 'Front Page 4', 'tecscan' ),
+	'description' => __( 'This is the Front Page 4 widget area.', 'tecscan' ),
 ) );
 
 // Register Front Page 5 widget area.
 genesis_register_sidebar( array(
 	'id'          => 'front-page-5',
-	'name'        => __( 'Front Page 5', 'business-pro-theme' ),
-	'description' => __( 'This is the Front Page 5 widget area.', 'business-pro-theme' ),
+	'name'        => __( 'Front Page 5', 'tecscan' ),
+	'description' => __( 'This is the Front Page 5 widget area.', 'tecscan' ),
 ) );
 
 // Register Front Page 6 widget area.
 genesis_register_sidebar( array(
 	'id'          => 'front-page-6',
-	'name'        => __( 'Front Page 6', 'business-pro-theme' ),
-	'description' => __( 'This is the Front Page 6 widget area.', 'business-pro-theme' ),
+	'name'        => __( 'Front Page 6', 'tecscan' ),
+	'description' => __( 'This is the Front Page 6 widget area.', 'tecscan' ),
 ) );
 
 // Register before footer widget area.
 genesis_register_sidebar( array(
 	'id'          => 'before-footer',
-	'name'        => __( 'Before Footer', 'business-pro-theme' ),
-	'description' => __( 'This is the before footer widget area.', 'business-pro-theme' ),
+	'name'        => __( 'Before Footer', 'tecscan' ),
+	'description' => __( 'This is the before footer widget area.', 'tecscan' ),
 ) );
 
-add_action( 'genesis_before_footer_wrap', 'business_before_footer_widget_area', 5 );
+add_action( 'genesis_before_footer', 'tecscan_before_footer_widget_area', 5 );
 /**
  * Display before-footer widget area.
  *
@@ -75,7 +75,7 @@ add_action( 'genesis_before_footer_wrap', 'business_before_footer_widget_area', 
  *
  * @return void
  */
-function business_before_footer_widget_area() {
+function tecscan_before_footer_widget_area() {
 	genesis_widget_area( 'before-footer', array(
 		'before' => '<div class="before-footer"><div class="wrap">',
 		'after'  => '</div></div>',

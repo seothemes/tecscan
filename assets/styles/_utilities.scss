@@ -14,23 +14,24 @@ $breakpoints: (
 
 // Colors
 
-$accent: #fb2056;
+$primary: #006fc8;
+$accent: #64c9ea;
 $tomato: #ff6347;
 $dodger: #1e90ff;
 $seagreen: #2e8b57;
 $black: #000;
 $dark: #232c39;
-$gray: #647585;
+$gray: #90908f;
 $medium: #a4a8ac;
 $border: #f0f1f2;
-$light: #f6f7f8;
+$light: #fcfbfc;
 $white: #fff;
-$overlay: rgba(35, 44, 57, 0.9);
+$overlay: rgba($dark, 0.9);
 
 // Typography
 
-$font-heading: montserrat, helvetica, arial, sans-serif;
-$font-body: hind, helvetica, arial, sans-serif;
+$font-heading: open sans, helvetica, arial, sans-serif;
+$font-body: open sans, helvetica, arial, sans-serif;
 $normal: 400;
 $bolder: 500;
 $bold: 600;
@@ -121,6 +122,7 @@ $five-sixths: 82.90598290598291%;
 
 @mixin overlay {
 	position: relative;
+	color: $white;
 
 	&:before {
 		display: block;

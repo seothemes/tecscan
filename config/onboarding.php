@@ -10,9 +10,9 @@
  * @link    https://www.studiopress.com/
  */
 
-return apply_filters( 'business_pro_config_onboarding', [
+return apply_filters( 'tecscan_config_onboarding', [
 	'dependencies'     => [
-		'plugins' => business_get_plugin_dependencies( genesis_get_config( 'plugins' ) ),
+		'plugins' => tecscan_get_plugin_dependencies( genesis_get_config( 'plugins' ) ),
 	],
 	'content'          => [
 		'home'    => [

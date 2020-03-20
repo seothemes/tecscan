@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds helper functions to the Business Pro theme.
+ * This file adds helper functions to the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -25,7 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
  *
  * @return array
  */
-function business_get_config( $sub_config ) {
+function tecscan_get_config( $sub_config ) {
 	$config = require get_stylesheet_directory() . '/config/defaults.php';
 
 	if ( $sub_config ) {
@@ -48,7 +48,7 @@ function business_get_config( $sub_config ) {
  *
  * @return string
  */
-function business_sanitize_number( $number, $setting ) {
+function tecscan_sanitize_number( $number, $setting ) {
 	$number = absint( $number );
 
 	return ( $number ? $number : $setting->default );
@@ -66,7 +66,7 @@ function business_sanitize_number( $number, $setting ) {
  *
  * @return string $color Sanitized value.
  */
-function business_sanitize_rgba_color( $color ) {
+function tecscan_sanitize_rgba_color( $color ) {
 
 	// Return invisible if empty.
 	if ( empty( $color ) || is_array( $color ) ) {
@@ -100,7 +100,7 @@ function business_sanitize_rgba_color( $color ) {
  *
  * @return string Minified CSS.
  */
-function business_minify_css( $css ) {
+function tecscan_minify_css( $css ) {
 
 	// Normalize whitespace.
 	$css = preg_replace( '/\s+/', ' ', $css );
@@ -149,7 +149,7 @@ function business_minify_css( $css ) {
  *
  * @return string
  */
-function business_custom_header() {
+function tecscan_custom_header() {
 	$id  = '';
 	$url = '';
 
@@ -216,7 +216,7 @@ function business_custom_header() {
  *
  * @return bool
  */
-function business_is_woocommerce_page() {
+function tecscan_is_woocommerce_page() {
 	if ( ! class_exists( 'WooCommerce' ) ) {
 		return false;
 	}
@@ -229,7 +229,7 @@ function business_is_woocommerce_page() {
 	}
 }
 
-add_filter( 'http_request_args', 'business_dont_update_theme', 5, 2 );
+add_filter( 'http_request_args', 'tecscan_dont_update_theme', 5, 2 );
 /**
  * Don't Update Theme.
  *
@@ -241,7 +241,7 @@ add_filter( 'http_request_args', 'business_dont_update_theme', 5, 2 );
  *
  * @return array  request arguments
  */
-function business_dont_update_theme( $request, $url ) {
+function tecscan_dont_update_theme( $request, $url ) {
 	if ( 0 !== strpos( $url, 'http://api.wordpress.org/themes/update-check' ) ) {
 		return $request;
 	}
@@ -268,7 +268,7 @@ function business_dont_update_theme( $request, $url ) {
  *
  * @return bool
  */
-function business_sidebar_has_widget( $sidebar, $widget ) {
+function tecscan_sidebar_has_widget( $sidebar, $widget ) {
 	global $sidebars_widgets;
 
 	if ( ! empty( $sidebars_widgets[ $sidebar ][0] ) && strpos( $sidebars_widgets[ $sidebar ][0], $widget ) !== false && is_active_sidebar( $sidebar ) ) {
@@ -287,7 +287,7 @@ function business_sidebar_has_widget( $sidebar, $widget ) {
  *
  * @return array
  */
-function business_get_plugin_dependencies( $slugs ) {
+function tecscan_get_plugin_dependencies( $slugs ) {
 	$plugins = [];
 
 	foreach ( $slugs as $slug ) {

@@ -1,15 +1,15 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds the page builder template to the Business Pro theme.
+ * This file adds the page builder template to the TecScan.
  * It removes everything between the site header and footer leaving
  * a blank template perfect for page builder plugins.
  *
  * Template Name: Page Builder
  *
- * @package      Business Pro
- * @link         https://seothemes.com/themes/business-pro
+ * @package      TecScan
+ * @link         https://seothemes.com/themes/tecscan
  * @author       SEO Themes
  * @copyright    Copyright © 2019 SEO Themes
  * @license      GPL-3.0-or-later
@@ -21,10 +21,10 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Remove default hero section.
-remove_action( 'genesis_before_content_sidebar_wrap', 'business_hero_section' );
+remove_action( 'genesis_before_content_sidebar_wrap', 'tecscan_hero_section' );
 
 // Remove before footer widget area.
-remove_action( 'genesis_before_footer_wrap', 'business_before_footer_widget_area', 5 );
+remove_action( 'genesis_before_footer_wrap', 'tecscan_before_footer_widget_area', 5 );
 
 // Get site-header.
 get_header();

@@ -26,14 +26,14 @@
 >
 
 <channel>
-	<title>Business Pro</title>
-	<link>https://demo.seothemes.com/business-pro</link>
+	<title>TecScan</title>
+	<link>https://demo.seothemes.com/tecscan</link>
 	<description>Genesis child theme</description>
 	<pubDate>Tue, 27 Feb 2018 02:42:14 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://demo.seothemes.com/business-pro</wp:base_site_url>
-	<wp:base_blog_url>https://demo.seothemes.com/business-pro</wp:base_blog_url>
+	<wp:base_site_url>https://demo.seothemes.com/tecscan</wp:base_site_url>
+	<wp:base_blog_url>https://demo.seothemes.com/tecscan</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@business.dev]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -576,10 +576,10 @@
 
 	<item>
 		<title>0-7-</title>
-		<link>https://demo.seothemes.com/business-pro/0-7/</link>
+		<link>https://demo.seothemes.com/tecscan/0-7/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/0-7-.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/0-7-.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -595,7 +595,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/0-7-.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/0-7-.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/0-7-.jpg]]></wp:meta_value>
@@ -607,10 +607,10 @@
 	</item>
 	<item>
 		<title>4c8ee826154745.56350688d0a0a</title>
-		<link>https://demo.seothemes.com/business-pro/4c8ee826154745-56350688d0a0a/</link>
+		<link>https://demo.seothemes.com/tecscan/4c8ee826154745-56350688d0a0a/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/4c8ee826154745.56350688d0a0a.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/4c8ee826154745.56350688d0a0a.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -626,7 +626,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/4c8ee826154745.56350688d0a0a.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/4c8ee826154745.56350688d0a0a.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/4c8ee826154745.56350688d0a0a.jpg]]></wp:meta_value>
@@ -637,11 +637,11 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>7-clean-business-card-mockup-psd-3</title>
-		<link>https://demo.seothemes.com/business-pro/7-clean-business-card-mockup-psd-3/</link>
+		<title>7-clean-tecscan-card-mockup-psd-3</title>
+		<link>https://demo.seothemes.com/tecscan/7-clean-tecscan-card-mockup-psd-3/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:41 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/7-clean-business-card-mockup-psd-3.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/7-clean-tecscan-card-mockup-psd-3.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -650,29 +650,29 @@
 		<wp:post_date_gmt><![CDATA[2017-08-16 05:58:41]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[7-clean-business-card-mockup-psd-3]]></wp:post_name>
+		<wp:post_name><![CDATA[7-clean-tecscan-card-mockup-psd-3]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/7-clean-business-card-mockup-psd-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/7-clean-tecscan-card-mockup-psd-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/08/7-clean-business-card-mockup-psd-3.jpg]]></wp:meta_value>
+			<wp:meta_value><![CDATA[2017/08/7-clean-tecscan-card-mockup-psd-3.jpg]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1240;s:6:"height";i:827;s:4:"file";s:46:"2017/08/7-clean-business-card-mockup-psd-3.jpg";s:5:"sizes";a:14:{s:21:"woocommerce_thumbnail";a:5:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:9:"uncropped";b:1;}s:29:"woocommerce_gallery_thumbnail";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:18:"woocommerce_single";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:47:"7-clean-business-card-mockup-psd-3-1024x683.jpg";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/jpeg";}s:13:"gts-thumbnail";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:4:"hero";a:4:{s:4:"file";s:47:"7-clean-business-card-mockup-psd-3-1240x720.jpg";s:5:"width";i:1240;s:6:"height";i:720;s:9:"mime-type";s:10:"image/jpeg";}s:9:"portfolio";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-620x380.jpg";s:5:"width";i:620;s:6:"height";i:380;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:5:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:9:"uncropped";b:1;}s:11:"shop_single";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:16:"author-pro-image";a:4:{s:4:"file";s:46:"7-clean-business-card-mockup-psd-3-360x570.jpg";s:5:"width";i:360;s:6:"height";i:570;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1240;s:6:"height";i:827;s:4:"file";s:46:"2017/08/7-clean-tecscan-card-mockup-psd-3.jpg";s:5:"sizes";a:14:{s:21:"woocommerce_thumbnail";a:5:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:9:"uncropped";b:1;}s:29:"woocommerce_gallery_thumbnail";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:18:"woocommerce_single";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:47:"7-clean-tecscan-card-mockup-psd-3-1024x683.jpg";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/jpeg";}s:13:"gts-thumbnail";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:4:"hero";a:4:{s:4:"file";s:47:"7-clean-tecscan-card-mockup-psd-3-1240x720.jpg";s:5:"width";i:1240;s:6:"height";i:720;s:9:"mime-type";s:10:"image/jpeg";}s:9:"portfolio";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-620x380.jpg";s:5:"width";i:620;s:6:"height";i:380;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:5:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";s:9:"uncropped";b:1;}s:11:"shop_single";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:16:"author-pro-image";a:4:{s:4:"file";s:46:"7-clean-tecscan-card-mockup-psd-3-360x570.jpg";s:5:"width";i:360;s:6:"height";i:570;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>10</title>
-		<link>https://demo.seothemes.com/business-pro/10/</link>
+		<link>https://demo.seothemes.com/tecscan/10/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:41 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/10.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/10.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -688,7 +688,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/10.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/10.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/10.jpg]]></wp:meta_value>
@@ -700,10 +700,10 @@
 	</item>
 	<item>
 		<title>b88d3228647817.55caf9174e4a1</title>
-		<link>https://demo.seothemes.com/business-pro/b88d3228647817-55caf9174e4a1/</link>
+		<link>https://demo.seothemes.com/tecscan/b88d3228647817-55caf9174e4a1/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/b88d3228647817.55caf9174e4a1.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/b88d3228647817.55caf9174e4a1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -719,7 +719,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/b88d3228647817.55caf9174e4a1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/b88d3228647817.55caf9174e4a1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/b88d3228647817.55caf9174e4a1.jpg]]></wp:meta_value>
@@ -731,10 +731,10 @@
 	</item>
 	<item>
 		<title>blog-1</title>
-		<link>https://demo.seothemes.com/business-pro/blog-1/</link>
+		<link>https://demo.seothemes.com/tecscan/blog-1/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/blog-1.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/blog-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -750,7 +750,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/blog-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/blog-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/blog-1.jpg]]></wp:meta_value>
@@ -762,10 +762,10 @@
 	</item>
 	<item>
 		<title>blog</title>
-		<link>https://demo.seothemes.com/business-pro/blog-2/</link>
+		<link>https://demo.seothemes.com/tecscan/blog-2/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/blog.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/blog.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -781,7 +781,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/blog.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/blog.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/blog.jpg]]></wp:meta_value>
@@ -793,10 +793,10 @@
 	</item>
 	<item>
 		<title>calculator-dark-light-iphone-6-perspective</title>
-		<link>https://demo.seothemes.com/business-pro/calculator-dark-light-iphone-6-perspective/</link>
+		<link>https://demo.seothemes.com/tecscan/calculator-dark-light-iphone-6-perspective/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:43 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/calculator-dark-light-iphone-6-perspective.png</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/calculator-dark-light-iphone-6-perspective.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -812,7 +812,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/calculator-dark-light-iphone-6-perspective.png]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/calculator-dark-light-iphone-6-perspective.png]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/calculator-dark-light-iphone-6-perspective.png]]></wp:meta_value>
@@ -824,10 +824,10 @@
 	</item>
 	<item>
 		<title>columns</title>
-		<link>https://demo.seothemes.com/business-pro/columns/</link>
+		<link>https://demo.seothemes.com/tecscan/columns/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:43 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/columns.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/columns.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -843,7 +843,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/columns.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/columns.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/columns.jpeg]]></wp:meta_value>
@@ -855,10 +855,10 @@
 	</item>
 	<item>
 		<title>design</title>
-		<link>https://demo.seothemes.com/business-pro/design/</link>
+		<link>https://demo.seothemes.com/tecscan/design/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:44 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/design.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/design.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -874,7 +874,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/design.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/design.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/design.jpeg]]></wp:meta_value>
@@ -886,10 +886,10 @@
 	</item>
 	<item>
 		<title>digital</title>
-		<link>https://demo.seothemes.com/business-pro/digital/</link>
+		<link>https://demo.seothemes.com/tecscan/digital/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:44 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/digital.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/digital.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -905,7 +905,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/digital.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/digital.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/digital.jpg]]></wp:meta_value>
@@ -917,10 +917,10 @@
 	</item>
 	<item>
 		<title>free-apple-macbook-mockup</title>
-		<link>https://demo.seothemes.com/business-pro/free-apple-macbook-mockup/</link>
+		<link>https://demo.seothemes.com/tecscan/free-apple-macbook-mockup/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/free-apple-macbook-mockup.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/free-apple-macbook-mockup.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -936,7 +936,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/free-apple-macbook-mockup.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/free-apple-macbook-mockup.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/free-apple-macbook-mockup.jpg]]></wp:meta_value>
@@ -948,10 +948,10 @@
 	</item>
 	<item>
 		<title>gallery</title>
-		<link>https://demo.seothemes.com/business-pro/gallery-2/</link>
+		<link>https://demo.seothemes.com/tecscan/gallery-2/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/gallery.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/gallery.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -967,7 +967,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/gallery.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/gallery.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/gallery.jpeg]]></wp:meta_value>
@@ -979,10 +979,10 @@
 	</item>
 	<item>
 		<title>icons</title>
-		<link>https://demo.seothemes.com/business-pro/icons/</link>
+		<link>https://demo.seothemes.com/tecscan/icons/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/icons.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/icons.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -998,7 +998,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/icons.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/icons.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/icons.jpg]]></wp:meta_value>
@@ -1010,10 +1010,10 @@
 	</item>
 	<item>
 		<title>k4</title>
-		<link>https://demo.seothemes.com/business-pro/k4/</link>
+		<link>https://demo.seothemes.com/tecscan/k4/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/k4.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/k4.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1029,7 +1029,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/k4.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/k4.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/k4.jpg]]></wp:meta_value>
@@ -1041,10 +1041,10 @@
 	</item>
 	<item>
 		<title>layouts</title>
-		<link>https://demo.seothemes.com/business-pro/layouts-2/</link>
+		<link>https://demo.seothemes.com/tecscan/layouts-2/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/layouts.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/layouts.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1060,7 +1060,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/layouts.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/layouts.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/layouts.jpeg]]></wp:meta_value>
@@ -1072,10 +1072,10 @@
 	</item>
 	<item>
 		<title>Magazine-mockup</title>
-		<link>https://demo.seothemes.com/business-pro/magazine-mockup/</link>
+		<link>https://demo.seothemes.com/tecscan/magazine-mockup/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/Magazine-mockup.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/Magazine-mockup.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1091,7 +1091,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/Magazine-mockup.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/Magazine-mockup.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/Magazine-mockup.jpg]]></wp:meta_value>
@@ -1103,10 +1103,10 @@
 	</item>
 	<item>
 		<title>marketing</title>
-		<link>https://demo.seothemes.com/business-pro/marketing/</link>
+		<link>https://demo.seothemes.com/tecscan/marketing/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/marketing.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/marketing.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1122,7 +1122,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/marketing.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/marketing.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/marketing.jpeg]]></wp:meta_value>
@@ -1138,10 +1138,10 @@
 	</item>
 	<item>
 		<title>pricing</title>
-		<link>https://demo.seothemes.com/business-pro/pricing/</link>
+		<link>https://demo.seothemes.com/tecscan/pricing/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/pricing.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/pricing.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1157,7 +1157,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/pricing.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/pricing.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/pricing.jpeg]]></wp:meta_value>
@@ -1169,10 +1169,10 @@
 	</item>
 	<item>
 		<title>sample</title>
-		<link>https://demo.seothemes.com/business-pro/sample/</link>
+		<link>https://demo.seothemes.com/tecscan/sample/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/sample.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/sample.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1188,7 +1188,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/sample.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/sample.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/sample.jpeg]]></wp:meta_value>
@@ -1200,7 +1200,7 @@
 	</item>
 	<item>
 		<title>How does the Genesis Simple FAQ plugin work?</title>
-		<link>https://demo.seothemes.com/business-pro/gs_faq/faq-2/</link>
+		<link>https://demo.seothemes.com/tecscan/gs_faq/faq-2/</link>
 		<pubDate>Sun, 19 Nov 2017 23:49:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://corporate-pro.dev/?post_type=gs_faq&#038;p=57</guid>
@@ -1231,10 +1231,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1323/</link>
+		<link>https://demo.seothemes.com/tecscan/1323/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1323</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1323</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1286,10 +1286,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1324/</link>
+		<link>https://demo.seothemes.com/tecscan/1324/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1324</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1324</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1341,10 +1341,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1325/</link>
+		<link>https://demo.seothemes.com/tecscan/1325/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1325</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1325</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1396,7 +1396,7 @@
 	</item>
 	<item>
 		<title>What is the Genesis Simple FAQ plugin?</title>
-		<link>https://demo.seothemes.com/business-pro/gs_faq/faq-1/</link>
+		<link>https://demo.seothemes.com/tecscan/gs_faq/faq-1/</link>
 		<pubDate>Sun, 17 Dec 2017 03:26:59 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://corporate-pro.dev/?post_type=gs_faq&#038;p=1351</guid>
@@ -1426,10 +1426,10 @@
 	</item>
 	<item>
 		<title>shop</title>
-		<link>https://demo.seothemes.com/business-pro/shop-2/</link>
+		<link>https://demo.seothemes.com/tecscan/shop-2/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/shop.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/shop.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1445,7 +1445,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/shop.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/shop.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/shop.jpg]]></wp:meta_value>
@@ -1457,10 +1457,10 @@
 	</item>
 	<item>
 		<title>web</title>
-		<link>https://demo.seothemes.com/business-pro/web/</link>
+		<link>https://demo.seothemes.com/tecscan/web/</link>
 		<pubDate>Wed, 16 Aug 2017 05:58:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/web.jpeg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/web.jpeg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1476,7 +1476,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/web.jpeg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/web.jpeg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/web.jpeg]]></wp:meta_value>
@@ -1488,10 +1488,10 @@
 	</item>
 	<item>
 		<title>product-amp-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-amp-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-amp-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-amp-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-amp-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1507,7 +1507,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-amp-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-amp-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-amp-1024-1024.jpg]]></wp:meta_value>
@@ -1519,10 +1519,10 @@
 	</item>
 	<item>
 		<title>product-box-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-box-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-box-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-box-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-box-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1538,7 +1538,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-box-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-box-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-box-1024-1024.jpg]]></wp:meta_value>
@@ -1550,10 +1550,10 @@
 	</item>
 	<item>
 		<title>product-camera-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-camera-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-camera-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-camera-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-camera-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1569,7 +1569,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-camera-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-camera-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-camera-1024-1024.jpg]]></wp:meta_value>
@@ -1581,10 +1581,10 @@
 	</item>
 	<item>
 		<title>product-clock-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-clock-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-clock-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-clock-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-clock-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1600,7 +1600,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-clock-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-clock-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-clock-1024-1024.jpg]]></wp:meta_value>
@@ -1612,10 +1612,10 @@
 	</item>
 	<item>
 		<title>product-fan-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-fan-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-fan-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-fan-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-fan-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1631,7 +1631,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-fan-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-fan-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-fan-1024-1024.jpg]]></wp:meta_value>
@@ -1643,10 +1643,10 @@
 	</item>
 	<item>
 		<title>product-mug-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-mug-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-mug-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-mug-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-mug-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1662,7 +1662,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-mug-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-mug-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-mug-1024-1024.jpg]]></wp:meta_value>
@@ -1674,10 +1674,10 @@
 	</item>
 	<item>
 		<title>product-phone-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-phone-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-phone-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-phone-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-phone-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1693,7 +1693,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-phone-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-phone-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-phone-1024-1024.jpg]]></wp:meta_value>
@@ -1705,10 +1705,10 @@
 	</item>
 	<item>
 		<title>product-stool-1024-1024</title>
-		<link>https://demo.seothemes.com/business-pro/product-stool-1024-1024/</link>
+		<link>https://demo.seothemes.com/tecscan/product-stool-1024-1024/</link>
 		<pubDate>Wed, 16 Aug 2017 05:59:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-stool-1024-1024.jpg</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-stool-1024-1024.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1724,7 +1724,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/08/product-stool-1024-1024.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/08/product-stool-1024-1024.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/08/product-stool-1024-1024.jpg]]></wp:meta_value>
@@ -1736,10 +1736,10 @@
 	</item>
 	<item>
 		<title>How do I add a simple FAQ?</title>
-		<link>https://demo.seothemes.com/business-pro/gs_faq/how-do-i-add-a-simple-faq__trashed/</link>
+		<link>https://demo.seothemes.com/tecscan/gs_faq/how-do-i-add-a-simple-faq__trashed/</link>
 		<pubDate>Tue, 10 Oct 2017 01:19:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?post_type=gs_faq&#038;p=1430</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?post_type=gs_faq&#038;p=1430</guid>
 		<description></description>
 		<content:encoded><![CDATA[A visit is a measure of the traffic your site gets in a given day. We add them all up for a month, and that’s how we calculate traffic. In our opinion it’s the most fair way to measure how many server resources your site will need. For more information, see the Flywheel help.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1774,10 +1774,10 @@
 	</item>
 	<item>
 		<title>logo</title>
-		<link>https://demo.seothemes.com/business-pro/logo-2/</link>
+		<link>https://demo.seothemes.com/tecscan/logo-2/</link>
 		<pubDate>Fri, 17 Nov 2017 00:25:54 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/wp-content/uploads/2017/11/logo.png</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/wp-content/uploads/2017/11/logo.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1793,7 +1793,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.seothemes.com/business-pro/wp-content/uploads/2017/11/logo.png]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[https://demo.seothemes.com/tecscan/wp-content/uploads/2017/11/logo.png]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/11/logo.png]]></wp:meta_value>
@@ -1805,7 +1805,7 @@
 	</item>
 	<item>
 		<title>Where can I download the Genesis Simple FAQ plugin?</title>
-		<link>https://demo.seothemes.com/business-pro/gs_faq/faq-5/</link>
+		<link>https://demo.seothemes.com/tecscan/gs_faq/faq-5/</link>
 		<pubDate>Sun, 19 Nov 2017 23:48:50 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://corporate-pro.dev/?post_type=gs_faq&#038;p=51</guid>
@@ -1836,7 +1836,7 @@
 	</item>
 	<item>
 		<title>Where can I show the FAQ section on my website?</title>
-		<link>https://demo.seothemes.com/business-pro/gs_faq/faq-4/</link>
+		<link>https://demo.seothemes.com/tecscan/gs_faq/faq-4/</link>
 		<pubDate>Sun, 19 Nov 2017 23:49:01 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://corporate-pro.dev/?post_type=gs_faq&#038;p=53</guid>
@@ -1867,7 +1867,7 @@
 	</item>
 	<item>
 		<title>Can I customize the design of my FAQ section?</title>
-		<link>https://demo.seothemes.com/business-pro/gs_faq/faq-3/</link>
+		<link>https://demo.seothemes.com/tecscan/gs_faq/faq-3/</link>
 		<pubDate>Sun, 19 Nov 2017 23:49:14 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://corporate-pro.dev/?post_type=gs_faq&#038;p=55</guid>
@@ -1898,10 +1898,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1326/</link>
+		<link>https://demo.seothemes.com/tecscan/1326/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1326</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1326</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1953,10 +1953,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1327/</link>
+		<link>https://demo.seothemes.com/tecscan/1327/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1327</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1327</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2008,10 +2008,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1328/</link>
+		<link>https://demo.seothemes.com/tecscan/1328/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1328</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1328</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2063,10 +2063,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1329/</link>
+		<link>https://demo.seothemes.com/tecscan/1329/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1329</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1329</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2118,10 +2118,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1330/</link>
+		<link>https://demo.seothemes.com/tecscan/1330/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1330</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1330</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2173,10 +2173,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1332/</link>
+		<link>https://demo.seothemes.com/tecscan/1332/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1332</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1332</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2228,10 +2228,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1333/</link>
+		<link>https://demo.seothemes.com/tecscan/1333/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1333</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1333</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2283,10 +2283,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1341/</link>
+		<link>https://demo.seothemes.com/tecscan/1341/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1341</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1341</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2338,10 +2338,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1342/</link>
+		<link>https://demo.seothemes.com/tecscan/1342/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1342</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1342</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2393,10 +2393,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1343/</link>
+		<link>https://demo.seothemes.com/tecscan/1343/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1343</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1343</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2448,10 +2448,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1344/</link>
+		<link>https://demo.seothemes.com/tecscan/1344/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1344</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1344</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2503,10 +2503,10 @@
 	</item>
 	<item>
 		<title>Contact</title>
-		<link>https://demo.seothemes.com/business-pro/contact/</link>
+		<link>https://demo.seothemes.com/tecscan/contact/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1346</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1346</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2558,10 +2558,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1347/</link>
+		<link>https://demo.seothemes.com/tecscan/1347/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1347</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1347</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2613,10 +2613,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1348/</link>
+		<link>https://demo.seothemes.com/tecscan/1348/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1348</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1348</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2668,10 +2668,10 @@
 	</item>
 	<item>
 		<title>Service Page</title>
-		<link>https://demo.seothemes.com/business-pro/service-page/</link>
+		<link>https://demo.seothemes.com/tecscan/service-page/</link>
 		<pubDate>Wed, 16 Aug 2017 00:34:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1349</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1349</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2723,10 +2723,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1400/</link>
+		<link>https://demo.seothemes.com/tecscan/1400/</link>
 		<pubDate>Wed, 16 Aug 2017 09:02:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1400</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1400</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2778,10 +2778,10 @@
 	</item>
 	<item>
 		<title>Templates</title>
-		<link>https://demo.seothemes.com/business-pro/templates/</link>
+		<link>https://demo.seothemes.com/tecscan/templates/</link>
 		<pubDate>Sun, 17 Sep 2017 08:12:24 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1422</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1422</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2833,10 +2833,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1469/</link>
+		<link>https://demo.seothemes.com/tecscan/1469/</link>
 		<pubDate>Sat, 24 Feb 2018 04:14:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1469</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1469</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2888,10 +2888,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1470/</link>
+		<link>https://demo.seothemes.com/tecscan/1470/</link>
 		<pubDate>Sat, 24 Feb 2018 04:14:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1470</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1470</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2943,10 +2943,10 @@
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1487/</link>
+		<link>https://demo.seothemes.com/tecscan/1487/</link>
 		<pubDate>Mon, 26 Feb 2018 06:58:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1487</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1487</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2998,7 +2998,7 @@
 	</item>
 	<item>
 		<title>Home</title>
-		<link>https://demo.seothemes.com/business-pro/</link>
+		<link>https://demo.seothemes.com/tecscan/</link>
 		<pubDate>Wed, 05 Apr 2017 10:59:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?page_id=8</guid>
@@ -3182,7 +3182,7 @@
 	</item>
 	<item>
 		<title>Contact Us</title>
-		<link>https://demo.seothemes.com/business-pro/contact-us/</link>
+		<link>https://demo.seothemes.com/tecscan/contact-us/</link>
 		<pubDate>Thu, 06 Apr 2017 10:35:39 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?page_id=120</guid>
@@ -3348,7 +3348,7 @@
 	</item>
 	<item>
 		<title>Templates</title>
-		<link>https://demo.seothemes.com/business-pro/templates/</link>
+		<link>https://demo.seothemes.com/tecscan/templates/</link>
 		<pubDate>Sun, 15 Aug 2010 19:08:02 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis</guid>
@@ -3451,7 +3451,7 @@
 	</item>
 	<item>
 		<title>Typography</title>
-		<link>https://demo.seothemes.com/business-pro/features/typography/</link>
+		<link>https://demo.seothemes.com/tecscan/features/typography/</link>
 		<pubDate>Mon, 25 Apr 2016 19:44:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?page_id=485</guid>
@@ -3645,7 +3645,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>Shop</title>
-		<link>https://demo.seothemes.com/business-pro/shop/</link>
+		<link>https://demo.seothemes.com/tecscan/shop/</link>
 		<pubDate>Sat, 04 Feb 2017 04:26:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/shop/</guid>
@@ -3827,7 +3827,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>Cart</title>
-		<link>https://demo.seothemes.com/business-pro/shop/cart/</link>
+		<link>https://demo.seothemes.com/tecscan/shop/cart/</link>
 		<pubDate>Sat, 04 Feb 2017 04:26:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/cart/</guid>
@@ -3977,7 +3977,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>Checkout</title>
-		<link>https://demo.seothemes.com/business-pro/shop/checkout/</link>
+		<link>https://demo.seothemes.com/tecscan/shop/checkout/</link>
 		<pubDate>Sat, 04 Feb 2017 04:26:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/checkout/</guid>
@@ -4047,7 +4047,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>My Account</title>
-		<link>https://demo.seothemes.com/business-pro/shop/my-account/</link>
+		<link>https://demo.seothemes.com/tecscan/shop/my-account/</link>
 		<pubDate>Sat, 04 Feb 2017 04:26:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/my-account/</guid>
@@ -4213,7 +4213,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>Column Classes</title>
-		<link>https://demo.seothemes.com/business-pro/features/column-classes/</link>
+		<link>https://demo.seothemes.com/tecscan/features/column-classes/</link>
 		<pubDate>Sat, 25 Mar 2017 12:30:34 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://limitless.dev/?page_id=62</guid>
@@ -4476,7 +4476,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>Blog</title>
-		<link>https://demo.seothemes.com/business-pro/blog/</link>
+		<link>https://demo.seothemes.com/tecscan/blog/</link>
 		<pubDate>Fri, 31 Mar 2017 02:19:31 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://limitless.dev/?page_id=721</guid>
@@ -4646,7 +4646,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>Gallery</title>
-		<link>https://demo.seothemes.com/business-pro/features/gallery/</link>
+		<link>https://demo.seothemes.com/tecscan/features/gallery/</link>
 		<pubDate>Mon, 03 Apr 2017 15:29:05 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://limitless.dev/?page_id=797</guid>
@@ -4820,7 +4820,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac lorem vel lec
 	</item>
 	<item>
 		<title>Sample Page</title>
-		<link>https://demo.seothemes.com/business-pro/features/sample-page/</link>
+		<link>https://demo.seothemes.com/tecscan/features/sample-page/</link>
 		<pubDate>Sat, 12 Aug 2017 07:00:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?page_id=2</guid>
@@ -4874,7 +4874,7 @@ As a new WordPress user, you should go to <a href="https://creative .dev/wp-admi
 	</item>
 	<item>
 		<title>Icon Styles</title>
-		<link>https://demo.seothemes.com/business-pro/features/icon-styles/</link>
+		<link>https://demo.seothemes.com/tecscan/features/icon-styles/</link>
 		<pubDate>Thu, 06 Apr 2017 14:54:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?page_id=887</guid>
@@ -5266,7 +5266,7 @@ As a new WordPress user, you should go to <a href="https://creative .dev/wp-admi
 <span><i class="fa fa-wifi"></i> fa-wifi</span>
 <span><i class="fa fa-wrench"></i> fa-wrench</span>
 </div>]]></content:encoded>
-		<excerpt:encoded><![CDATA[Business Pro comes with multiple line icons.]]></excerpt:encoded>
+		<excerpt:encoded><![CDATA[TecScan comes with multiple line icons.]]></excerpt:encoded>
 		<wp:post_id>887</wp:post_id>
 		<wp:post_date><![CDATA[2017-04-06 14:54:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-04-06 14:54:47]]></wp:post_date_gmt>
@@ -5514,7 +5514,7 @@ As a new WordPress user, you should go to <a href="https://creative .dev/wp-admi
 	</item>
 	<item>
 		<title>Pricing Table</title>
-		<link>https://demo.seothemes.com/business-pro/features/pricing-table/</link>
+		<link>https://demo.seothemes.com/tecscan/features/pricing-table/</link>
 		<pubDate>Sat, 08 Apr 2017 10:04:53 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?page_id=956</guid>
@@ -5899,7 +5899,7 @@ As a new WordPress user, you should go to <a href="https://creative .dev/wp-admi
 	</item>
 	<item>
 		<title>Page Builder</title>
-		<link>https://demo.seothemes.com/business-pro/templates/page-builder/</link>
+		<link>https://demo.seothemes.com/tecscan/templates/page-builder/</link>
 		<pubDate>Tue, 18 Apr 2017 14:24:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?page_id=1043</guid>
@@ -6644,7 +6644,7 @@ As a new WordPress user, you should go to <a href="https://creative .dev/wp-admi
 	</item>
 	<item>
 		<title>Landing Page</title>
-		<link>https://demo.seothemes.com/business-pro/templates/landing-page/</link>
+		<link>https://demo.seothemes.com/tecscan/templates/landing-page/</link>
 		<pubDate>Thu, 22 Jun 2017 07:47:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?page_id=1078</guid>
@@ -6663,7 +6663,7 @@ This is an example of a WordPress page, you could edit this to put information a
 
 &nbsp;
 
-<a href="javascript:history.back()" class="button">Back to Demo</a> <a target="_blank" href="https://seothemes.com/themes/business-pro" class="button gradient">Buy Business Pro</a>]]></content:encoded>
+<a href="javascript:history.back()" class="button">Back to Demo</a> <a target="_blank" href="https://seothemes.com/themes/tecscan" class="button gradient">Buy TecScan</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1078</wp:post_id>
 		<wp:post_date><![CDATA[2017-06-22 07:47:40]]></wp:post_date>
@@ -6816,7 +6816,7 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Layouts</title>
-		<link>https://demo.seothemes.com/business-pro/layouts/</link>
+		<link>https://demo.seothemes.com/tecscan/layouts/</link>
 		<pubDate>Thu, 03 Aug 2017 14:12:53 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://studio.dev/?page_id=1200</guid>
@@ -6918,10 +6918,10 @@ Vestibulum in faucibus ipsum. Donec rutrum sapien eget velit mollis blandit. Fus
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1499/</link>
+		<link>https://demo.seothemes.com/tecscan/1499/</link>
 		<pubDate>Mon, 26 Feb 2018 08:09:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1499</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1499</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6973,10 +6973,10 @@ Vestibulum in faucibus ipsum. Donec rutrum sapien eget velit mollis blandit. Fus
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1500/</link>
+		<link>https://demo.seothemes.com/tecscan/1500/</link>
 		<pubDate>Mon, 26 Feb 2018 08:09:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1500</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1500</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7028,10 +7028,10 @@ Vestibulum in faucibus ipsum. Donec rutrum sapien eget velit mollis blandit. Fus
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.seothemes.com/business-pro/1501/</link>
+		<link>https://demo.seothemes.com/tecscan/1501/</link>
 		<pubDate>Mon, 26 Feb 2018 08:09:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?p=1501</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?p=1501</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -7083,7 +7083,7 @@ Vestibulum in faucibus ipsum. Donec rutrum sapien eget velit mollis blandit. Fus
 	</item>
 	<item>
 		<title>Features</title>
-		<link>https://demo.seothemes.com/business-pro/features/</link>
+		<link>https://demo.seothemes.com/tecscan/features/</link>
 		<pubDate>Sun, 13 Aug 2017 03:33:33 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?page_id=17</guid>
@@ -7153,7 +7153,7 @@ Vestibulum in faucibus ipsum. Donec rutrum sapien eget velit mollis blandit. Fus
 	</item>
 	<item>
 		<title>Services</title>
-		<link>https://demo.seothemes.com/business-pro/services/</link>
+		<link>https://demo.seothemes.com/tecscan/services/</link>
 		<pubDate>Sun, 13 Aug 2017 03:33:39 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?page_id=19</guid>
@@ -7223,7 +7223,7 @@ Vestibulum in faucibus ipsum. Donec rutrum sapien eget velit mollis blandit. Fus
 	</item>
 	<item>
 		<title>UI Design</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-item/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-item/</link>
 		<pubDate>Thu, 06 Apr 2017 07:10:32 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?post_type=portfolio&#038;p=79</guid>
@@ -7346,7 +7346,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>Print</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-item-2/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-item-2/</link>
 		<pubDate>Thu, 06 Apr 2017 08:17:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?post_type=portfolio&#038;p=97</guid>
@@ -7470,7 +7470,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>Logo Design</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-item-3/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-item-3/</link>
 		<pubDate>Thu, 06 Apr 2017 08:17:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?post_type=portfolio&#038;p=103</guid>
@@ -7594,7 +7594,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>UX Design</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-item-4/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-item-4/</link>
 		<pubDate>Thu, 06 Apr 2017 08:17:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?post_type=portfolio&#038;p=105</guid>
@@ -7719,7 +7719,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>Graphics</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-5/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-5/</link>
 		<pubDate>Thu, 06 Apr 2017 08:25:44 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?post_type=portfolio&#038;p=107</guid>
@@ -7843,7 +7843,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>Web Design</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-7/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-7/</link>
 		<pubDate>Thu, 06 Apr 2017 08:26:09 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?post_type=portfolio&#038;p=116</guid>
@@ -7966,7 +7966,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>Branding</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-8/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-8/</link>
 		<pubDate>Thu, 06 Apr 2017 08:26:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?post_type=portfolio&#038;p=118</guid>
@@ -8092,7 +8092,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>Design &amp; Branding</title>
-		<link>https://demo.seothemes.com/business-pro/services/design-branding/</link>
+		<link>https://demo.seothemes.com/tecscan/services/design-branding/</link>
 		<pubDate>Mon, 14 Aug 2017 11:20:10 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?page_id=1281</guid>
@@ -8156,7 +8156,7 @@ Aenean tempor risus neque, quis egestas quam viverra dignissim. Nulla quis condi
 	</item>
 	<item>
 		<title>Web Development</title>
-		<link>https://demo.seothemes.com/business-pro/services/web-development/</link>
+		<link>https://demo.seothemes.com/tecscan/services/web-development/</link>
 		<pubDate>Mon, 14 Aug 2017 11:20:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?page_id=1283</guid>
@@ -8220,7 +8220,7 @@ Aenean tempor risus neque, quis egestas quam viverra dignissim. Nulla quis condi
 	</item>
 	<item>
 		<title>Digital Marketing</title>
-		<link>https://demo.seothemes.com/business-pro/services/digital-marketing/</link>
+		<link>https://demo.seothemes.com/tecscan/services/digital-marketing/</link>
 		<pubDate>Mon, 14 Aug 2017 11:20:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?page_id=1285</guid>
@@ -8284,7 +8284,7 @@ Aenean tempor risus neque, quis egestas quam viverra dignissim. Nulla quis condi
 	</item>
 	<item>
 		<title>Centered Content</title>
-		<link>https://demo.seothemes.com/business-pro/layouts/centered-content/</link>
+		<link>https://demo.seothemes.com/tecscan/layouts/centered-content/</link>
 		<pubDate>Tue, 15 Aug 2017 05:21:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?page_id=1319</guid>
@@ -8358,10 +8358,10 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Portfolio</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/</link>
 		<pubDate>Wed, 16 Aug 2017 09:02:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?page_id=1398</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?page_id=1398</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8400,10 +8400,10 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>FAQs</title>
-		<link>https://demo.seothemes.com/business-pro/features/faqs/</link>
+		<link>https://demo.seothemes.com/tecscan/features/faqs/</link>
 		<pubDate>Tue, 10 Oct 2017 01:31:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?page_id=1432</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?page_id=1432</guid>
 		<description></description>
 		<content:encoded><![CDATA[[gs_faq]]]></content:encoded>
 		<excerpt:encoded><![CDATA[Frequently asked questions]]></excerpt:encoded>
@@ -8438,10 +8438,10 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Blog Template</title>
-		<link>https://demo.seothemes.com/business-pro/templates/blog-template/</link>
+		<link>https://demo.seothemes.com/tecscan/templates/blog-template/</link>
 		<pubDate>Sat, 24 Feb 2018 04:14:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?page_id=1465</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?page_id=1465</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8480,10 +8480,10 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sitemap</title>
-		<link>https://demo.seothemes.com/business-pro/templates/sitemap/</link>
+		<link>https://demo.seothemes.com/tecscan/templates/sitemap/</link>
 		<pubDate>Sat, 24 Feb 2018 04:14:24 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?page_id=1467</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?page_id=1467</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -8518,10 +8518,10 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Content Sidebar</title>
-		<link>https://demo.seothemes.com/business-pro/layouts/content-sidebar/</link>
+		<link>https://demo.seothemes.com/tecscan/layouts/content-sidebar/</link>
 		<pubDate>Mon, 26 Feb 2018 07:57:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?page_id=1491</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?page_id=1491</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress. This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.
 
@@ -8574,10 +8574,10 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sidebar Content</title>
-		<link>https://demo.seothemes.com/business-pro/layouts/sidebar-content/</link>
+		<link>https://demo.seothemes.com/tecscan/layouts/sidebar-content/</link>
 		<pubDate>Mon, 26 Feb 2018 07:58:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?page_id=1493</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?page_id=1493</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress. This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.
 
@@ -8630,10 +8630,10 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Full-Width Content</title>
-		<link>https://demo.seothemes.com/business-pro/layouts/full-width-content/</link>
+		<link>https://demo.seothemes.com/tecscan/layouts/full-width-content/</link>
 		<pubDate>Mon, 26 Feb 2018 07:58:35 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://demo.seothemes.com/business-pro/?page_id=1495</guid>
+		<guid isPermaLink="false">https://demo.seothemes.com/tecscan/?page_id=1495</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress. This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.
 
@@ -8686,7 +8686,7 @@ This is an example of a WordPress page, you could edit this to put information a
 	</item>
 	<item>
 		<title>Another cool post with some content</title>
-		<link>https://demo.seothemes.com/business-pro/hello-world-copy/</link>
+		<link>https://demo.seothemes.com/tecscan/hello-world-copy/</link>
 		<pubDate>Wed, 05 Apr 2017 14:02:17 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/2017/04/05/hello-world-copy/</guid>
@@ -8827,7 +8827,7 @@ Welcome to WordPress. This is your first post. Edit or delete it, then start wri
 	</item>
 	<item>
 		<title>Some awesome news about us</title>
-		<link>https://demo.seothemes.com/business-pro/hello-world-copy-copy/</link>
+		<link>https://demo.seothemes.com/tecscan/hello-world-copy-copy/</link>
 		<pubDate>Wed, 05 Apr 2017 14:02:34 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/2017/04/05/hello-world-copy-copy/</guid>
@@ -8944,7 +8944,7 @@ Welcome to WordPress. This is your first post. Edit or delete it, then start wri
 	</item>
 	<item>
 		<title>This is our second placeholder post</title>
-		<link>https://demo.seothemes.com/business-pro/hello-world-copy-copy-copy/</link>
+		<link>https://demo.seothemes.com/tecscan/hello-world-copy-copy-copy/</link>
 		<pubDate>Wed, 05 Apr 2017 14:02:51 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/2017/04/05/hello-world-copy-copy-copy/</guid>
@@ -9085,7 +9085,7 @@ Welcome to WordPress. This is your first post. Edit or delete it, then start wri
 	</item>
 	<item>
 		<title>How to create placeholder posts</title>
-		<link>https://demo.seothemes.com/business-pro/hello-world-copy-copy-copy-copy/</link>
+		<link>https://demo.seothemes.com/tecscan/hello-world-copy-copy-copy-copy/</link>
 		<pubDate>Wed, 05 Apr 2017 14:03:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/2017/04/05/hello-world-copy-copy-copy-copy/</guid>
@@ -9226,7 +9226,7 @@ Welcome to WordPress. This is your first post. Edit or delete it, then start wri
 	</item>
 	<item>
 		<title>Sample Post With a Blockquote</title>
-		<link>https://demo.seothemes.com/business-pro/blockquote/</link>
+		<link>https://demo.seothemes.com/tecscan/blockquote/</link>
 		<pubDate>Wed, 01 Feb 2017 01:54:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=7</guid>
@@ -9351,7 +9351,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sample Post With an Ordered List</title>
-		<link>https://demo.seothemes.com/business-pro/ordered-list/</link>
+		<link>https://demo.seothemes.com/tecscan/ordered-list/</link>
 		<pubDate>Wed, 01 Feb 2017 01:54:32 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=9</guid>
@@ -9465,7 +9465,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sample Post With an Unordered List</title>
-		<link>https://demo.seothemes.com/business-pro/unordered-list/</link>
+		<link>https://demo.seothemes.com/tecscan/unordered-list/</link>
 		<pubDate>Wed, 01 Feb 2017 01:54:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=11</guid>
@@ -9596,7 +9596,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sample Post With Image Centered</title>
-		<link>https://demo.seothemes.com/business-pro/image-centered/</link>
+		<link>https://demo.seothemes.com/tecscan/image-centered/</link>
 		<pubDate>Wed, 01 Feb 2017 01:55:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=13</guid>
@@ -9724,7 +9724,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sample Post With Image Aligned Right</title>
-		<link>https://demo.seothemes.com/business-pro/image-aligned-right/</link>
+		<link>https://demo.seothemes.com/tecscan/image-aligned-right/</link>
 		<pubDate>Wed, 01 Feb 2017 01:56:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=16</guid>
@@ -9852,7 +9852,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sample Post With Image Aligned Left</title>
-		<link>https://demo.seothemes.com/business-pro/image-aligned-left/</link>
+		<link>https://demo.seothemes.com/tecscan/image-aligned-left/</link>
 		<pubDate>Wed, 01 Feb 2017 01:57:05 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=18</guid>
@@ -9980,7 +9980,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sample Post With Threaded Comments</title>
-		<link>https://demo.seothemes.com/business-pro/threaded-comments/</link>
+		<link>https://demo.seothemes.com/tecscan/threaded-comments/</link>
 		<pubDate>Wed, 01 Feb 2017 01:57:18 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=20</guid>
@@ -10596,7 +10596,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Sample Post With a Table</title>
-		<link>https://demo.seothemes.com/business-pro/sample-table/</link>
+		<link>https://demo.seothemes.com/tecscan/sample-table/</link>
 		<pubDate>Wed, 01 Feb 2017 01:53:31 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://www.genesisframework.com/?p=447</guid>
@@ -10718,7 +10718,7 @@ This is an example of a WordPress post, you could edit this to put information a
 	</item>
 	<item>
 		<title>Digital Strategy</title>
-		<link>https://demo.seothemes.com/business-pro/product/amp/</link>
+		<link>https://demo.seothemes.com/tecscan/product/amp/</link>
 		<pubDate>Sat, 04 Feb 2017 04:38:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=533</guid>
@@ -10896,7 +10896,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>Logo Design</title>
-		<link>https://demo.seothemes.com/business-pro/product/vintage-film-camera/</link>
+		<link>https://demo.seothemes.com/tecscan/product/vintage-film-camera/</link>
 		<pubDate>Sat, 04 Feb 2017 04:39:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=542</guid>
@@ -11070,7 +11070,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>Graphic Design</title>
-		<link>https://demo.seothemes.com/business-pro/product/dipped-tripod-stool/</link>
+		<link>https://demo.seothemes.com/tecscan/product/dipped-tripod-stool/</link>
 		<pubDate>Sat, 04 Feb 2017 04:39:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=543</guid>
@@ -11244,7 +11244,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>Print Design</title>
-		<link>https://demo.seothemes.com/business-pro/product/never-settle-mug/</link>
+		<link>https://demo.seothemes.com/tecscan/product/never-settle-mug/</link>
 		<pubDate>Sat, 04 Feb 2017 04:40:36 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=544</guid>
@@ -11418,7 +11418,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>App Design</title>
-		<link>https://demo.seothemes.com/business-pro/product/school-house-clock/</link>
+		<link>https://demo.seothemes.com/tecscan/product/school-house-clock/</link>
 		<pubDate>Sat, 04 Feb 2017 04:41:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=545</guid>
@@ -11592,7 +11592,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>Sample Post With Headlines</title>
-		<link>https://demo.seothemes.com/business-pro/headlines/</link>
+		<link>https://demo.seothemes.com/tecscan/headlines/</link>
 		<pubDate>Wed, 01 Feb 2017 01:52:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=5</guid>
@@ -11731,7 +11731,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>Typography</title>
-		<link>https://demo.seothemes.com/business-pro/portfolio/portfolio-5-copy/</link>
+		<link>https://demo.seothemes.com/tecscan/portfolio/portfolio-5-copy/</link>
 		<pubDate>Thu, 06 Apr 2017 14:27:04 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/portfolio/portfolio-5-copy/</guid>
@@ -11854,7 +11854,7 @@ Next steps proximity strategic partners traction. In the queue pivot next steps 
 	</item>
 	<item>
 		<title>Sample post with some content</title>
-		<link>https://demo.seothemes.com/business-pro/hello-world-2/</link>
+		<link>https://demo.seothemes.com/tecscan/hello-world-2/</link>
 		<pubDate>Wed, 05 Apr 2017 10:54:06 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://studio.dev/?p=1</guid>
@@ -11995,12 +11995,12 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 	</item>
 	<item>
 		<title>Corrie Edison</title>
-		<link>https://demo.seothemes.com/business-pro/?testimonial=corrie-edison</link>
+		<link>https://demo.seothemes.com/tecscan/?testimonial=corrie-edison</link>
 		<pubDate>Sun, 13 Aug 2017 02:26:26 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?post_type=testimonial&#038;p=12</guid>
 		<description></description>
-		<content:encoded><![CDATA[Business Pro is the real deal! Business Pro was worth a fortune to my company. I am completely blown away. I use Business Pro often.]]></content:encoded>
+		<content:encoded><![CDATA[TecScan is the real deal! TecScan was worth a fortune to my company. I am completely blown away. I use TecScan often.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-13 02:26:26]]></wp:post_date>
@@ -12049,12 +12049,12 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 	</item>
 	<item>
 		<title>Aloysius Ventura</title>
-		<link>https://demo.seothemes.com/business-pro/?testimonial=aloysius-ventura</link>
+		<link>https://demo.seothemes.com/tecscan/?testimonial=aloysius-ventura</link>
 		<pubDate>Sun, 13 Aug 2017 02:27:36 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?post_type=testimonial&#038;p=13</guid>
 		<description></description>
-		<content:encoded><![CDATA[I use Business Pro often. It really saves me time and effort. Business Pro is exactly what our business has been lacking. Dude, your stuff is the bomb!]]></content:encoded>
+		<content:encoded><![CDATA[I use TecScan often. It really saves me time and effort. TecScan is exactly what our business has been lacking. Dude, your stuff is the bomb!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>13</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-13 02:27:36]]></wp:post_date>
@@ -12103,12 +12103,12 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 	</item>
 	<item>
 		<title>Eli Jacobs</title>
-		<link>https://demo.seothemes.com/business-pro/?testimonial=eli-jacobs</link>
+		<link>https://demo.seothemes.com/tecscan/?testimonial=eli-jacobs</link>
 		<pubDate>Sun, 13 Aug 2017 02:28:39 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?post_type=testimonial&#038;p=14</guid>
 		<description></description>
-		<content:encoded><![CDATA[Business Pro is worth much more than I paid. The very best. Just what I was looking for. It really saves me time and effort. Business Pro is exactly what our business has been lacking.]]></content:encoded>
+		<content:encoded><![CDATA[TecScan is worth much more than I paid. The very best. Just what I was looking for. It really saves me time and effort. TecScan is exactly what our business has been lacking.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-13 02:28:39]]></wp:post_date>
@@ -12157,12 +12157,12 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 	</item>
 	<item>
 		<title>Mindy Carter</title>
-		<link>https://demo.seothemes.com/business-pro/?testimonial=mindy-carter</link>
+		<link>https://demo.seothemes.com/tecscan/?testimonial=mindy-carter</link>
 		<pubDate>Sun, 13 Aug 2017 03:04:52 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://creative.dev/?post_type=testimonial&#038;p=16</guid>
 		<description></description>
-		<content:encoded><![CDATA[I couldn't have asked for more than this. You guys rock! Business Pro is exactly what our business has been lacking. Very easy to use.]]></content:encoded>
+		<content:encoded><![CDATA[I couldn't have asked for more than this. You guys rock! TecScan is exactly what our business has been lacking. Very easy to use.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>16</wp:post_id>
 		<wp:post_date><![CDATA[2017-08-13 03:04:52]]></wp:post_date>
@@ -12211,7 +12211,7 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 	</item>
 	<item>
 		<title>Brochure Design</title>
-		<link>https://demo.seothemes.com/business-pro/product/index-card-catalog/</link>
+		<link>https://demo.seothemes.com/tecscan/product/index-card-catalog/</link>
 		<pubDate>Sat, 04 Feb 2017 04:42:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=546</guid>
@@ -12385,7 +12385,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>App Development</title>
-		<link>https://demo.seothemes.com/business-pro/product/vintage-fan/</link>
+		<link>https://demo.seothemes.com/tecscan/product/vintage-fan/</link>
 		<pubDate>Sat, 04 Feb 2017 04:42:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=547</guid>
@@ -12559,7 +12559,7 @@ Our shop is built with the popular WooCommerce plugin for WordPress.]]></content
 	</item>
 	<item>
 		<title>Website Design</title>
-		<link>https://demo.seothemes.com/business-pro/product/vintage-phone/</link>
+		<link>https://demo.seothemes.com/tecscan/product/vintage-phone/</link>
 		<pubDate>Sat, 04 Feb 2017 04:43:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis-sample/?post_type=product&#038;p=548</guid>

@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds the RGBA Customizer control to the Business Pro theme.
+ * This file adds the RGBA Customizer control to the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later

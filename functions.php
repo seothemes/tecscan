@@ -1,18 +1,13 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
  */
-
-// If this file is called directly, abort..
-if ( ! defined( 'WPINC' ) ) {
-	die;
-}
 
 // Start the engine (do not remove).
 include_once get_template_directory() . '/lib/init.php';

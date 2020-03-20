@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file contains theme specific functions for the Business Pro theme.
+ * This file contains theme specific functions for the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-add_filter( 'body_class', 'business_body_classes' );
+add_filter( 'body_class', 'tecscan_body_classes' );
 /**
  * Add additional classes to the body element.
  *
@@ -30,9 +30,9 @@ add_filter( 'body_class', 'business_body_classes' );
  *
  * @return array
  */
-function business_body_classes( $classes ) {
+function tecscan_body_classes( $classes ) {
 
-	if ( '1' == get_theme_mod( 'business_fixed_header', '0' ) ) {
+	if ( '1' == get_theme_mod( 'tecscan_fixed_header', '0' ) ) {
 		$classes[] = 'has-fixed-header';
 	}
 
@@ -44,8 +44,12 @@ function business_body_classes( $classes ) {
 		$classes[] = 'has-nav-secondary';
 	}
 
-	if ( business_sidebar_has_widget( 'front-page-1', 'seo_slider' ) ) {
+	if ( tecscan_sidebar_has_widget( 'front-page-1', 'seo_slider' ) ) {
 		$classes[] = 'has-hero-slider';
+	}
+
+	if ( current_theme_supports( 'fixed-header' ) ) {
+		$classes[] = 'has-fixed-header';
 	}
 
 	$classes[] = 'no-js';
@@ -53,7 +57,7 @@ function business_body_classes( $classes ) {
 	return $classes;
 }
 
-add_action( 'genesis_before', 'business_js_nojs_script', 1 );
+add_action( 'genesis_before', 'tecscan_js_nojs_script', 1 );
 /**
  * Echo out the script that changes 'no-js' class to 'js'.
  *
@@ -70,21 +74,21 @@ add_action( 'genesis_before', 'business_js_nojs_script', 1 );
  *
  * @return void
  */
-function business_js_nojs_script() {
+function tecscan_js_nojs_script() {
 	?>
-    <script>
-        //<![CDATA[
-        (function () {
-            var c = document.body.classList;
-            c.remove('no-js');
-            c.add('js');
-        })();
-        //]]>
-    </script>
+	<script>
+		//<![CDATA[
+		( function() {
+			var c = document.body.classList;
+			c.remove( 'no-js' );
+			c.add( 'js' );
+		} )();
+		//]]>
+	</script>
 	<?php
 }
 
-add_action( 'gts', 'business_wrap_open', 3 );
+add_action( 'gts', 'tecscan_wrap_open', 3 );
 /**
  * Custom opening wrapper div.
  *
@@ -92,11 +96,11 @@ add_action( 'gts', 'business_wrap_open', 3 );
  *
  * @return void
  */
-function business_wrap_open() {
+function tecscan_wrap_open() {
 	echo '<div class="wrap">';
 }
 
-add_action( 'gts', 'business_wrap_close', 13 );
+add_action( 'gts', 'tecscan_wrap_close', 13 );
 /**
  * Custom closing wrapper div.
  *
@@ -104,11 +108,11 @@ add_action( 'gts', 'business_wrap_close', 13 );
  *
  * @return void
  */
-function business_wrap_close() {
+function tecscan_wrap_close() {
 	echo '</div>';
 }
 
-add_action( 'genesis_entry_header', 'business_reposition_post_meta', 0 );
+add_action( 'genesis_entry_header', 'tecscan_reposition_post_meta', 0 );
 /**
  * Reposition post info and remove excerpts on archives.
  *
@@ -119,20 +123,20 @@ add_action( 'genesis_entry_header', 'business_reposition_post_meta', 0 );
  *
  * @return void
  */
-function business_reposition_post_meta() {
+function tecscan_reposition_post_meta() {
 	if ( is_archive() || is_home() || is_search() || is_post_type_archive() ) {
 		remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 		add_action( 'genesis_entry_header', 'genesis_post_info', 1 );
 	}
 }
 
-add_filter( 'genesis_post_info', 'business_post_info_date' );
+add_filter( 'genesis_post_info', 'tecscan_post_info_date' );
 /**
  * Change the default post info on archives.
  *
  * Replaces the default post info (author, comments, edit link) with just the
  * date of the post, which is then repositioned above the entry title with
- * the business_reposition_post_meta() function above on archive pages.
+ * the tecscan_reposition_post_meta() function above on archive pages.
  *
  * @since  0.1.0
  *
@@ -140,7 +144,7 @@ add_filter( 'genesis_post_info', 'business_post_info_date' );
  *
  * @return string
  */
-function business_post_info_date( $post_info ) {
+function tecscan_post_info_date( $post_info ) {
 	if ( is_archive() || is_home() || is_search() || is_post_type_archive() ) {
 		$post_info = '[post_date]';
 	}
@@ -148,7 +152,7 @@ function business_post_info_date( $post_info ) {
 	return $post_info;
 }
 
-add_filter( 'genesis_post_meta', 'business_post_meta_filter' );
+add_filter( 'genesis_post_meta', 'tecscan_post_meta_filter' );
 /**
  * Customize the entry meta in the entry footer.
  *
@@ -162,7 +166,7 @@ add_filter( 'genesis_post_meta', 'business_post_meta_filter' );
  *
  * @return string
  */
-function business_post_meta_filter( $post_meta ) {
+function tecscan_post_meta_filter( $post_meta ) {
 	if ( is_archive() || is_home() || is_search() || ! is_post_type_archive() ) {
 		$cat_img   = '<img width=\'20\' height=\'20\' src=\'' . get_stylesheet_directory_uri() . '/assets/images/cats.svg\'>';
 		$tag_img   = '<img width=\'20\' height=\'20\' src=\'' . get_stylesheet_directory_uri() . '/assets/images/tags.svg\'>';
@@ -172,7 +176,7 @@ function business_post_meta_filter( $post_meta ) {
 	return $post_meta;
 }
 
-add_filter( 'genesis_markup_title-area_close', 'business_after_title_area', 10, 2 );
+add_filter( 'genesis_markup_title-area_close', 'tecscan_after_title_area', 10, 2 );
 /**
  * Appends HTML to the closing markup for .title-area.
  *
@@ -189,7 +193,7 @@ add_filter( 'genesis_markup_title-area_close', 'business_after_title_area', 10, 
  *
  * @return string
  */
-function business_after_title_area( $close_html, $args ) {
+function tecscan_after_title_area( $close_html, $args ) {
 	if ( $close_html ) {
 		ob_start();
 		do_action( 'genesis_after_title_area' );
@@ -199,7 +203,7 @@ function business_after_title_area( $close_html, $args ) {
 	return $close_html;
 }
 
-add_action( 'init', 'business_structural_wrap_hooks' );
+add_action( 'init', 'tecscan_structural_wrap_hooks' );
 /**
  * Add hooks immediately before and after Genesis structural wraps.
  *
@@ -211,7 +215,7 @@ add_action( 'init', 'business_structural_wrap_hooks' );
  *
  * @return void
  */
-function business_structural_wrap_hooks() {
+function tecscan_structural_wrap_hooks() {
 	$wraps = get_theme_support( 'genesis-structural-wraps' );
 
 	foreach ( $wraps[0] as $context ) {
@@ -239,25 +243,7 @@ function business_structural_wrap_hooks() {
 	}
 }
 
-add_filter( 'genesis_attr_site-header', 'business_fixed_header' );
-/**
- * Enable fixed header if theme supports it.
- *
- * @since  1.0.0
- *
- * @param  array $attr Site header attr.
- *
- * @return array
- */
-function business_fixed_header( $attr ) {
-	if ( current_theme_supports( 'fixed-header' ) ) {
-		$attr['class'] .= ' fixed';
-	}
-
-	return $attr;
-}
-
-add_action( 'genesis_after_content_sidebar_wrap', 'business_prev_next_post_nav_cpt', 99 );
+add_action( 'genesis_after_content_sidebar_wrap', 'tecscan_prev_next_post_nav_cpt', 99 );
 /**
  * Enable prev/next links in portfolio.
  *
@@ -265,16 +251,16 @@ add_action( 'genesis_after_content_sidebar_wrap', 'business_prev_next_post_nav_c
  *
  * @return void
  */
-function business_prev_next_post_nav_cpt() {
+function tecscan_prev_next_post_nav_cpt() {
 	if ( ! is_singular( 'portfolio' ) && ! is_singular( 'product' ) ) {
 		return;
 	}
 
-	genesis_markup( array(
+	genesis_markup( [
 		'html5'   => '<div %s><div class="wrap">',
 		'xhtml'   => '<div class="navigation">',
 		'context' => 'adjacent-entry-pagination',
-	) );
+	] );
 
 	echo '<div class="pagination-previous alignleft">';
 	previous_post_link();
@@ -286,7 +272,7 @@ function business_prev_next_post_nav_cpt() {
 	echo '</div></div>';
 }
 
-add_action( 'genesis_before', 'business_remove_sidebars' );
+add_action( 'genesis_before', 'tecscan_remove_sidebars' );
 /**
  * Force full-width-layout for custom layout.
  *
@@ -294,7 +280,7 @@ add_action( 'genesis_before', 'business_remove_sidebars' );
  *
  * @return void
  */
-function business_remove_sidebars() {
+function tecscan_remove_sidebars() {
 	$site_layout = genesis_site_layout();
 
 	if ( 'centered-content' !== $site_layout ) {
@@ -304,7 +290,7 @@ function business_remove_sidebars() {
 	add_filter( 'genesis_site_layout', '__genesis_return_full_width_content' );
 }
 
-add_action( 'genesis_before', 'business_woocommerce_demo_store' );
+add_action( 'genesis_before', 'tecscan_woocommerce_demo_store' );
 /**
  * Reposition WooCommerce store notice.
  *
@@ -312,14 +298,14 @@ add_action( 'genesis_before', 'business_woocommerce_demo_store' );
  *
  * @return void
  */
-function business_woocommerce_demo_store() {
-	if ( business_is_woocommerce_page() ) {
+function tecscan_woocommerce_demo_store() {
+	if ( tecscan_is_woocommerce_page() ) {
 		remove_action( 'wp_footer', 'woocommerce_demo_store' );
 		add_action( 'genesis_before_header_wrap', 'woocommerce_demo_store' );
 	}
 }
 
-add_filter( 'header_video_settings', 'business_header_video_min_width', 10, 1 );
+add_filter( 'header_video_settings', 'tecscan_header_video_min_width', 10, 1 );
 /**
  * Change minimum width to show the header video.
  *
@@ -331,7 +317,7 @@ add_filter( 'header_video_settings', 'business_header_video_min_width', 10, 1 );
  *
  * @return array
  */
-function business_header_video_min_width( $settings ) {
+function tecscan_header_video_min_width( $settings ) {
 	$settings['minWidth'] = 1025;
 
 	return $settings;

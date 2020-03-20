@@ -5,6 +5,7 @@
 	position: absolute;
 	z-index: 100;
 	width: 100%;
+	background-color: $white;
 
 	@include transition;
 
@@ -12,8 +13,8 @@
 		position: fixed;
 
 		&.shrink {
-			background-color: $dark;
-			box-shadow: 0 0 2rem rgba($dark, 0.2);
+			background-color: rgba($white, 0.9);
+			box-shadow: 0 0 2rem rgba($dark, 0.1);
 		}
 	}
 
@@ -79,14 +80,14 @@
 	white-space: nowrap;
 
 	a {
-		color: $white;
+		color: $primary;
 		text-decoration: none;
 	}
 }
 
 .site-description {
 	margin-bottom: 0;
-	color: $white;
+	color: $gray;
 	font-size: 1.2rem;
 	line-height: 1;
 

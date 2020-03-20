@@ -1,4 +1,4 @@
-# Business Pro Theme Changelog
+# TecScan Changelog
 
 ## [1.1.1] - 2018-03-21
 * Added: .gitattributes file

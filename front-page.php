@@ -1,20 +1,15 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds the front page to the Business Pro Theme.
+ * This file adds the front page to the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
  */
-
-// If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
-	die;
-}
 
 // Check if any front page widgets are active.
 if ( is_active_sidebar( 'front-page-1' ) ||
@@ -25,20 +20,20 @@ if ( is_active_sidebar( 'front-page-1' ) ||
      is_active_sidebar( 'front-page-6' ) ) {
 
 	// Remove 'home' body class.
-	add_filter( 'body_class', 'business_remove_blog_class' );
+	add_filter( 'body_class', 'tecscan_remove_blog_class' );
 
 	// Force full-width-content layout.
 	add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
 	// Remove default hero section.
-	remove_action( 'genesis_before_content_sidebar_wrap', 'business_hero_section' );
+	remove_action( 'genesis_before_content_sidebar_wrap', 'tecscan_hero_section' );
 
 	// Remove content-sidebar-wrap.
 	add_filter( 'genesis_markup_content-sidebar-wrap', '__return_null' );
 
 	// Remove default loop.
 	remove_action( 'genesis_loop', 'genesis_do_loop' );
-	add_action( 'genesis_loop', 'business_front_page_loop' );
+	add_action( 'genesis_loop', 'tecscan_front_page_loop' );
 }
 
 /**
@@ -50,7 +45,7 @@ if ( is_active_sidebar( 'front-page-1' ) ||
  *
  * @return array
  */
-function business_remove_blog_class( $classes ) {
+function tecscan_remove_blog_class( $classes ) {
 	$classes = array_diff( $classes, [ 'blog' ] );
 
 	return $classes;
@@ -63,7 +58,7 @@ function business_remove_blog_class( $classes ) {
  *
  * @return void
  */
-function business_front_page_loop() {
+function tecscan_front_page_loop() {
 
 	// Get custom header markup.
 	ob_start();
@@ -71,7 +66,7 @@ function business_front_page_loop() {
 	$custom_header = ob_get_clean();
 
 	// Check if using SEO slider.
-	$hero_section = business_sidebar_has_widget( 'front-page-1', 'seo_slider' ) ? '" role="banner">' : ' hero-section" role="banner">' . $custom_header;
+	$hero_section = tecscan_sidebar_has_widget( 'front-page-1', 'seo_slider' ) ? '" role="banner">' : ' hero-section" role="banner">' . $custom_header;
 
 	// Display Front Page 1 widget area.
 	genesis_widget_area( 'front-page-1', [

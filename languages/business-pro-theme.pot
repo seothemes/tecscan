@@ -1,8 +1,8 @@
-# Copyright (C) 2019 Business Pro Theme 1.1.1
-# This file is distributed under the same license as the Business Pro Theme 1.1.1 package.
+# Copyright (C) 2019 TecScan 1.1.1
+# This file is distributed under the same license as the TecScan 1.1.1 package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Business Pro Theme 1.1.1\n"
+"Project-Id-Version: TecScan 1.1.1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"

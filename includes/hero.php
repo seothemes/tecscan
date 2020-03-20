@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds the hero section functionality to the Business Pro theme.
+ * This file adds the hero section functionality to the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-add_action( 'genesis_before', 'business_hero_section_setup' );
+add_action( 'genesis_before', 'tecscan_hero_section_setup' );
 /**
  * Set up hero section.
  *
@@ -27,7 +27,7 @@ add_action( 'genesis_before', 'business_hero_section_setup' );
  *
  * @return void
  */
-function business_hero_section_setup() {
+function tecscan_hero_section_setup() {
 
 	// Remove default hero section.
 	remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open', 5 );
@@ -46,18 +46,18 @@ function business_hero_section_setup() {
 	remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
 
 	// Add custom hero section.
-	add_action( 'business_hero_section', 'genesis_do_posts_page_heading' );
-	add_action( 'business_hero_section', 'genesis_do_date_archive_title' );
-	add_action( 'business_hero_section', 'genesis_do_taxonomy_title_description' );
-	add_action( 'business_hero_section', 'genesis_do_author_title_description' );
-	add_action( 'business_hero_section', 'genesis_do_cpt_archive_title_description' );
+	add_action( 'tecscan_hero_section', 'genesis_do_posts_page_heading' );
+	add_action( 'tecscan_hero_section', 'genesis_do_date_archive_title' );
+	add_action( 'tecscan_hero_section', 'genesis_do_taxonomy_title_description' );
+	add_action( 'tecscan_hero_section', 'genesis_do_author_title_description' );
+	add_action( 'tecscan_hero_section', 'genesis_do_cpt_archive_title_description' );
 
 	// Remove search results and shop page titles.
 	add_filter( 'woocommerce_show_page_title', '__return_null' );
 	add_filter( 'genesis_search_title_output', '__return_false' );
 }
 
-add_action( 'genesis_before_content', 'business_remove_404_title' );
+add_action( 'genesis_before_content', 'tecscan_remove_404_title' );
 /**
  * Remove default title of 404 pages.
  *
@@ -65,7 +65,7 @@ add_action( 'genesis_before_content', 'business_remove_404_title' );
  *
  * @return void
  */
-function business_remove_404_title() {
+function tecscan_remove_404_title() {
 	if ( is_404() ) {
 		add_filter( 'genesis_markup_entry-title_open', '__return_false' );
 		add_filter( 'genesis_markup_entry-title_content', '__return_false' );
@@ -73,7 +73,7 @@ function business_remove_404_title() {
 	}
 }
 
-add_action( 'be_title_toggle_remove', 'business_genesis_title_toggle' );
+add_action( 'be_title_toggle_remove', 'tecscan_genesis_title_toggle' );
 /**
  * Integrate with Genesis Title Toggle plugin
  *
@@ -84,12 +84,12 @@ add_action( 'be_title_toggle_remove', 'business_genesis_title_toggle' );
  *
  * @return void
  */
-function business_genesis_title_toggle() {
-	remove_action( 'business_hero_section', 'business_page_title', 10 );
-	remove_action( 'business_hero_section', 'business_page_excerpt', 20 );
+function tecscan_genesis_title_toggle() {
+	remove_action( 'tecscan_hero_section', 'tecscan_page_title', 10 );
+	remove_action( 'tecscan_hero_section', 'tecscan_page_excerpt', 20 );
 }
 
-add_action( 'business_hero_section', 'business_page_title', 10 );
+add_action( 'tecscan_hero_section', 'tecscan_page_title', 10 );
 /**
  * Display title in hero section.
  *
@@ -100,7 +100,7 @@ add_action( 'business_hero_section', 'business_page_title', 10 );
  *
  * @return void
  */
-function business_page_title() {
+function tecscan_page_title() {
 
 	// Add post titles back inside posts loop.
 	if ( is_home() || is_archive() || is_category() || is_tag() || is_tax() || is_search() || genesis_is_blog_template() ) {
@@ -119,7 +119,7 @@ function business_page_title() {
 		genesis_markup( array(
 			'open'    => '<h1 %s>',
 			'close'   => '</h1>',
-			'content' => apply_filters( 'business_latest_posts_title', __( 'Latest Posts', 'business-pro-theme' ) ),
+			'content' => apply_filters( 'tecscan_latest_posts_title', __( 'Latest Posts', 'tecscan' ) ),
 			'context' => 'entry-title',
 		) );
 
@@ -127,7 +127,7 @@ function business_page_title() {
 		genesis_markup( array(
 			'open'    => '<h1 %s>',
 			'close'   => '</h1>',
-			'content' => apply_filters( 'genesis_404_entry_title', __( 'Not found, error 404', 'business-pro-theme' ) ),
+			'content' => apply_filters( 'genesis_404_entry_title', __( 'Not found, error 404', 'tecscan' ) ),
 			'context' => 'entry-title',
 		) );
 
@@ -135,7 +135,7 @@ function business_page_title() {
 		genesis_markup( array(
 			'open'    => '<h1 %s>',
 			'close'   => '</h1>',
-			'content' => apply_filters( 'genesis_search_title_text', __( 'Search results for: ', 'business-pro-theme' ) ) . get_search_query(),
+			'content' => apply_filters( 'genesis_search_title_text', __( 'Search results for: ', 'tecscan' ) ) . get_search_query(),
 			'context' => 'entry-title',
 		) );
 
@@ -147,7 +147,7 @@ function business_page_title() {
 	}
 }
 
-add_action( 'business_hero_section', 'business_page_excerpt', 20 );
+add_action( 'tecscan_hero_section', 'tecscan_page_excerpt', 20 );
 /**
  * Display page excerpt.
  *
@@ -159,7 +159,7 @@ add_action( 'business_hero_section', 'business_page_excerpt', 20 );
  *
  * @return void
  */
-function business_page_excerpt() {
+function tecscan_page_excerpt() {
 
 	if ( class_exists( 'WooCommerce' ) && is_shop() ) {
 		woocommerce_result_count();
@@ -192,7 +192,7 @@ function business_page_excerpt() {
 	}
 }
 
-add_filter( 'genesis_attr_hero-section', 'business_hero_section_attr' );
+add_filter( 'genesis_attr_hero-section', 'tecscan_hero_section_attr' );
 /**
  * Callback for dynamic Genesis 'genesis_attr_$context' filter.
  *
@@ -204,14 +204,14 @@ add_filter( 'genesis_attr_hero-section', 'business_hero_section_attr' );
  *
  * @return array
  */
-function business_hero_section_attr( $attr ) {
+function tecscan_hero_section_attr( $attr ) {
 	$attr['id']   = 'hero-section';
 	$attr['role'] = 'banner';
 
 	return $attr;
 }
 
-add_filter( 'genesis_attr_entry', 'business_entry_attr' );
+add_filter( 'genesis_attr_entry', 'tecscan_entry_attr' );
 /**
  * Add itemref attribute to link entry-title.
  *
@@ -228,7 +228,7 @@ add_filter( 'genesis_attr_entry', 'business_entry_attr' );
  *
  * @return array
  */
-function business_entry_attr( $atts ) {
+function tecscan_entry_attr( $atts ) {
 	if ( is_singular() && did_action( 'genesis_before_entry' ) && ! did_action( 'genesis_after_entry' ) ) {
 		$atts['itemref'] = 'hero-section';
 	}
@@ -236,18 +236,18 @@ function business_entry_attr( $atts ) {
 	return $atts;
 }
 
-add_action( 'genesis_before_content_sidebar_wrap', 'business_hero_section' );
+add_action( 'genesis_before_content_sidebar_wrap', 'tecscan_hero_section' );
 /**
  * Display the hero section.
  *
  * Conditionally outputs the opening and closing hero section markup and runs
- * business_hero_section which all of our header functions are hooked to.
+ * tecscan_hero_section which all of our header functions are hooked to.
  *
  * @since  1.1.1
  *
  * @return void
  */
-function business_hero_section() {
+function tecscan_hero_section() {
 
 	// Output hero section markup.
 	genesis_markup( array(
@@ -261,8 +261,8 @@ function business_hero_section() {
 	/**
 	 * Do hero section hook.
 	 *
-	 * @hooked business_page_title - 10
-	 * @hooked business_page_excerpt - 20
+	 * @hooked tecscan_page_title - 10
+	 * @hooked tecscan_page_excerpt - 20
 	 * @hooked genesis_do_posts_page_heading
 	 * @hooked genesis_do_date_archive_title
 	 * @hooked genesis_do_blog_template_heading
@@ -270,7 +270,7 @@ function business_hero_section() {
 	 * @hooked genesis_do_author_title_description
 	 * @hooked genesis_do_cpt_archive_title_description
 	 */
-	do_action( 'business_hero_section' );
+	do_action( 'tecscan_hero_section' );
 
 	// Output hero section closing wrap.
 	genesis_structural_wrap( 'hero-section', 'close' );

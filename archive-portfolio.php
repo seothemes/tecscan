@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
  * This template overrides the default Portfolio archive template.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -26,7 +26,7 @@ remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 
 // Add our custom loop.
-add_action( 'genesis_loop', 'business_filterable_portfolio' );
+add_action( 'genesis_loop', 'tecscan_filterable_portfolio' );
 
 // Enqueue scripts.
 wp_enqueue_script( 'isotope', get_stylesheet_directory_uri() . '/assets/scripts/min/isotope.pkgd.min.js', array( 'jquery' ), CHILD_THEME_VERSION, false );
@@ -39,7 +39,7 @@ wp_enqueue_script( 'isotope-init', get_stylesheet_directory_uri() . '/assets/scr
  *
  * @return void
  */
-function business_filterable_portfolio() {
+function tecscan_filterable_portfolio() {
 	global $post;
 	$terms = get_terms( 'portfolio-type' );
 	?>
@@ -48,7 +48,7 @@ function business_filterable_portfolio() {
 		<?php if ( $terms ) { ?>
 		<div id="portfolio-cats" class="filter clearfix">
 			<div class="wrap">
-				<a href="#" class="active" data-filter="*"><?php esc_html_e( 'All', 'business-pro-theme' ); ?></a>
+				<a href="#" class="active" data-filter="*"><?php esc_html_e( 'All', 'tecscan' ); ?></a>
 				<?php foreach ( $terms as $term ) : ?>
 					<a href='#' data-filter='.<?php echo esc_attr( $term->slug ); ?>'><?php echo esc_html( $term->name ); ?></a>
 				<?php endforeach; ?>

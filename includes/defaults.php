@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds the default settings to the Business Pro theme.
+ * This file adds the default settings to the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-add_filter( 'genesis_theme_settings_defaults', 'business_theme_defaults' );
+add_filter( 'genesis_theme_settings_defaults', 'tecscan_theme_defaults' );
 /**
  * Update Theme Settings upon reset.
  *
@@ -25,7 +25,7 @@ add_filter( 'genesis_theme_settings_defaults', 'business_theme_defaults' );
  * @param  array $defaults Default theme settings.
  * @return array Custom theme settings.
  */
-function business_theme_defaults( $defaults ) {
+function tecscan_theme_defaults( $defaults ) {
 	$defaults['blog_cat_num']              = 6;
 	$defaults['content_archive']           = 'excerpt';
 	$defaults['content_archive_limit']     = 300;
@@ -38,7 +38,7 @@ function business_theme_defaults( $defaults ) {
 	return $defaults;
 }
 
-add_action( 'after_switch_theme', 'business_theme_setting_defaults' );
+add_action( 'after_switch_theme', 'tecscan_theme_setting_defaults' );
 /**
  * Update Theme Settings upon activation.
  *
@@ -46,7 +46,7 @@ add_action( 'after_switch_theme', 'business_theme_setting_defaults' );
  *
  * @return void
  */
-function business_theme_setting_defaults() {
+function tecscan_theme_setting_defaults() {
 	if ( function_exists( 'genesis_update_settings' ) ) {
 		genesis_update_settings( array(
 			'blog_cat_num'              => 6,
@@ -63,7 +63,7 @@ function business_theme_setting_defaults() {
 	update_option( 'posts_per_page', 8 );
 }
 
-add_filter( 'simple_social_default_styles', 'business_social_default_styles' );
+add_filter( 'simple_social_default_styles', 'tecscan_social_default_styles' );
 /**
  * Theme Simple Social Icon defaults.
  *
@@ -72,7 +72,7 @@ add_filter( 'simple_social_default_styles', 'business_social_default_styles' );
  * @param  array $defaults Default Simple Social Icons settings.
  * @return array Custom settings.
  */
-function business_social_default_styles( $defaults ) {
+function tecscan_social_default_styles( $defaults ) {
 	$args = array(
 		'alignment'              => 'alignleft',
 		'background_color'       => '',
@@ -95,7 +95,7 @@ function business_social_default_styles( $defaults ) {
 	return $args;
 }
 
-add_action( 'after_switch_theme', 'business_excerpt_metabox' );
+add_action( 'after_switch_theme', 'tecscan_excerpt_metabox' );
 /**
  * Display excerpt metabox by default.
  *
@@ -111,7 +111,7 @@ add_action( 'after_switch_theme', 'business_excerpt_metabox' );
  *
  * @return void
  */
-function business_excerpt_metabox() {
+function tecscan_excerpt_metabox() {
 
 	// Get current user ID.
 	$user_id = get_current_user_id();
@@ -155,47 +155,47 @@ function business_excerpt_metabox() {
 	}
 }
 
-add_filter( 'icon_widget_default_font', 'business_icon_widget_default_font' );
+add_filter( 'icon_widget_default_font', 'tecscan_icon_widget_default_font' );
 /**
  * Set the default icon widget font.
  *
  * @return string
  */
-function business_icon_widget_default_font() {
+function tecscan_icon_widget_default_font() {
 	return 'line-awesome';
 }
 
-add_filter( 'icon_widget_default_color', 'business_icon_widget_default_color' );
+add_filter( 'icon_widget_default_color', 'tecscan_icon_widget_default_color' );
 /**
  * Set the default icon widget font.
  *
  * @return string
  */
-function business_icon_widget_default_color() {
+function tecscan_icon_widget_default_color() {
 	return '#fb2056';
 }
 
-add_filter( 'icon_widget_default_size', 'business_icon_widget_default_size' );
+add_filter( 'icon_widget_default_size', 'tecscan_icon_widget_default_size' );
 /**
  * Set the default icon widget font.
  *
  * @return string
  */
-function business_icon_widget_default_size() {
+function tecscan_icon_widget_default_size() {
 	return '3x';
 }
 
-add_filter( 'icon_widget_default_align', 'business_icon_widget_default_align' );
+add_filter( 'icon_widget_default_align', 'tecscan_icon_widget_default_align' );
 /**
  * Set the default icon widget font.
  *
  * @return string
  */
-function business_icon_widget_default_align() {
+function tecscan_icon_widget_default_align() {
 	return 'center';
 }
 
-add_filter( 'pt-ocdi/import_files', 'business_demo_import' );
+add_filter( 'pt-ocdi/import_files', 'tecscan_demo_import' );
 /**
  * One click demo import settings.
  *
@@ -203,7 +203,7 @@ add_filter( 'pt-ocdi/import_files', 'business_demo_import' );
  *
  * @return array
  */
-function business_demo_import() {
+function tecscan_demo_import() {
 	return array(
 		array(
 			'local_import_file'            => get_stylesheet_directory() . '/sample.xml',
@@ -218,7 +218,7 @@ function business_demo_import() {
 	);
 }
 
-add_filter( 'pt-ocdi/after_all_import_execution', 'business_after_demo_import', 999 );
+add_filter( 'pt-ocdi/after_all_import_execution', 'tecscan_after_demo_import', 999 );
 /**
  * Set default pages after demo import.
  *
@@ -228,11 +228,11 @@ add_filter( 'pt-ocdi/after_all_import_execution', 'business_after_demo_import', 
  *
  * @since  0.1.0
  *
- * @uses   business_slug_exists Helper function.
+ * @uses   tecscan_slug_exists Helper function.
  *
  * @return void
  */
-function business_after_demo_import() {
+function tecscan_after_demo_import() {
 
 	// Assign menus to their locations.
 	$menu = get_term_by( 'name', 'Header Menu', 'nav_menu' );

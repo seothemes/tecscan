@@ -1,11 +1,11 @@
 <?php
 /**
- * Business Pro Theme
+ * TecScan
  *
- * This file adds the setup functions to the Business Pro theme.
+ * This file adds the setup functions to the TecScan.
  *
- * @package   BusinessProTheme
- * @link      https://seothemes.com/themes/business-pro
+ * @package   TecScan
+ * @link      https://seothemes.com/themes/tecscan
  * @author    SEO Themes
  * @copyright Copyright © 2019 SEO Themes
  * @license   GPL-3.0-or-later
@@ -50,7 +50,7 @@ add_theme_support( 'genesis-accessibility', array(
 
 // Enable custom navigation menus.
 add_theme_support( 'genesis-menus', array(
-	'primary' => __( 'Header Menu', 'business-pro-theme' ),
+	'primary' => __( 'Header Menu', 'tecscan' ),
 ) );
 
 // Enable support for footer widgets.
@@ -122,7 +122,7 @@ add_theme_support( 'custom-header', array(
 	'flex-width'         => true,
 	'uploads'            => true,
 	'video'              => true,
-	'wp-head-callback'   => 'business_custom_header',
+	'wp-head-callback'   => 'tecscan_custom_header',
 ) );
 
 // Enable support for page excerpts.
@@ -143,13 +143,13 @@ register_default_headers( array(
 	'child' => array(
 		'url'           => '%2$s/assets/images/hero.jpg',
 		'thumbnail_url' => '%2$s/assets/images/hero.jpg',
-		'description'   => __( 'Hero Image', 'business-pro-theme' ),
+		'description'   => __( 'Hero Image', 'tecscan' ),
 	),
 ) );
 
 // Register custom layout.
 genesis_register_layout( 'centered-content', array(
-	'label' => __( 'Centered Content', 'business-pro-theme' ),
+	'label' => __( 'Centered Content', 'tecscan' ),
 	'img'   => get_stylesheet_directory_uri() . '/assets/images/layout.gif',
 ) );
 
@@ -168,8 +168,8 @@ remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 add_action( 'genesis_entry_header', 'genesis_do_post_image', 1 );
 
 // Reposition footer widgets.
-remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
-add_action( 'genesis_footer', 'genesis_footer_widget_areas', 6 );
+//remove_action( 'genesis_before_footer', 'genesis_footer_widget_areas' );
+//add_action( 'genesis_footer', 'genesis_footer_widget_areas', 6 );
 
 // Genesis style trump.
 remove_action( 'genesis_meta', 'genesis_load_stylesheet' );

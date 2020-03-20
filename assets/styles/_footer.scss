@@ -3,30 +3,24 @@
 
 .site-footer {
 	position: relative;
-	color: $medium;
-	background-color: $dark;
+	font-size: small;
+	text-align: center;
+
+	a {
+		text-decoration: none;
+	}
 
 	> .wrap {
 		position: relative;
-		padding: 0 5vw 5vw;
+		padding: 2rem 5vw;
 
 		@include breakpoint(sm) {
-			padding: 0 0 6rem;
+			padding: 2rem 0;
 		}
 
 		> p {
 			max-width: calc(100% - 4rem);
 			margin-bottom: 0;
-			font-size: 1.6rem;
-		}
-	}
-
-	a {
-		color: $medium;
-		text-decoration: none;
-
-		&:hover {
-			color: $light;
 		}
 	}
 
@@ -74,11 +68,13 @@
 
 .footer-widgets {
 	z-index: 0;
-	padding: 6rem 0;
+	padding: 4rem 0;
+	background-color: $light;
+	color: $gray;
 	font-size: 1.7rem;
 
 	@include breakpoint(md) {
-		padding: 10rem 0;
+		padding: 6rem 0;
 	}
 
 	.wrap {
@@ -118,7 +114,7 @@
 
 	.widget-title {
 		margin-bottom: 1.5em;
-		color: $border;
+		color: $gray;
 		font-size: 1.6rem;
 	}
 
@@ -221,6 +217,15 @@
 		}
 	}
 
+	a {
+		color: $accent;
+		text-decoration: none;
+
+		&:hover {
+			color: $dark;
+		}
+	}
+
 	p {
 
 		@include breakpoint(sm) {
@@ -234,8 +239,8 @@
 
 .before-footer {
 	padding: 6rem 0;
-	color: $white;
-	background-color: $dark;
+	color: $gray;
+	background-color: $light;
 
 	@include overlay;
 
@@ -303,11 +308,11 @@
 
 	.widget-title {
 		font-size: 3rem;
+		color: $white;
 	}
 
 	p {
 		margin-bottom: 0;
-		color: $light;
 	}
 
 	button,

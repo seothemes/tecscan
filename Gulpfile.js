@@ -45,8 +45,8 @@ toolkit.extendConfig(
             ]
         },
         js: {
-            'business-pro': [
-                'assets/scripts/business-pro.js',
+            'tecscan': [
+                'assets/scripts/tecscan.js',
             ],
             'customize': [
                 'assets/scripts/customize.js',
@@ -90,6 +90,7 @@ toolkit.extendConfig(
             proxy: 'https://business.test',
             host: 'business.test',
             open: 'external',
+			notify: false,
             port: '8000',
             https: {
                 'key': '/Users/seothemes/.config/valet/Certificates/business.test.key',

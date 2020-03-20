@@ -29,7 +29,6 @@
 	overflow: hidden;
 	position: relative;
 	padding: 12rem 0;
-	color: $white;
 	background-color: transparent;
 	background-position: center !important;
 	background-size: cover !important;
@@ -101,7 +100,6 @@
 
 			p {
 				margin-bottom: 1.618em;
-				color: $border;
 			}
 		}
 	}
@@ -278,8 +276,8 @@
 	overflow: hidden;
 	position: relative;
 	padding: 10rem 0;
-	color: $white;
-	background-color: $dark;
+	color: $gray;
+	background-color: $light;
 	text-align: center;
 
 	@include overlay;
@@ -382,7 +380,6 @@
 		padding: 0;
 		border: 3px solid $white;
 		border-radius: 3em;
-		color: $white;
 		background-color: transparent;
 		font-size: 2.4rem;
 
